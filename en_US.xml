@@ -39,10 +39,10 @@
     <entry key="command.kill.info.console">Kill the specified player</entry>
     <entry key="command.kill.info.player">Kill yourself or the specified player</entry>
 
-    <entry key="command.motd.syntax.console">[new motd]</entry>
-    <entry key="command.motd.syntax.player">[new motd]</entry>
-    <entry key="command.motd.info.console">Get/set the message of the day</entry>
-    <entry key="command.motd.info.player">Get/set the message of the day</entry>
+    <entry key="command.motd.syntax.console">[reload]</entry>
+    <entry key="command.motd.syntax.player">[relaod]</entry>
+    <entry key="command.motd.info.console">Display or reload the message of the day.</entry>
+    <entry key="command.motd.info.player">Display or reload the message of the day.</entry>
     
 	<entry key="command.nickname.syntax.console">&lt;player> &lt;nickname|del></entry>
     <entry key="command.nickname.syntax.player">[player] &lt;nickname|del></entry>
