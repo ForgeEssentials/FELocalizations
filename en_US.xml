@@ -2,29 +2,81 @@
 <properties version="1.0">
     <comment>English (US) Localization File, &lt; is the less than or left arrow sign</comment>
     
+    <entry key="command.afk.syntax.console"></entry>
+    <entry key="command.afk.syntax.player"></entry>
+    <entry key="command.afk.info.console"></entry>
+    <entry key="command.afk.info.player">Puts you in afk mode.</entry>
+    
+    <entry key="command.back.syntax.console">/back</entry>
     <entry key="command.back.syntax.player">/back</entry>
-    <entry key="command.back.info.player">Teleport you your last death point</entry>
+    <entry key="command.back.info.console"></entry>
+    <entry key="command.back.info.player">Teleport you to your last death or teleport location.</entry>
+    
+    <entry key="command.bed.syntax.console"></entry>
+    <entry key="command.bed.syntax.player"></entry>
+    <entry key="command.bed.info.console"></entry>
+    <entry key="command.bed.info.player">Teleports you to your spawn point or bed.</entry>
     
     <entry key="command.burn.syntax.console">&lt;player></entry>
     <entry key="command.burn.syntax.player">[me|&lt;player>]</entry>
-    <entry key="command.burn.info.console">Set the specified player on fire</entry>
-    <entry key="command.burn.info.player">Set yourself or the specified player on fire</entry>
+    <entry key="command.burn.info.console">Set the specified player on fire.</entry>
+    <entry key="command.burn.info.player">Set yourself or the specified player on fire.</entry>
 
     <entry key="command.butcher.syntax.console">&lt;radius> &lt;type> &lt;x, y, z> &lt;worldID></entry>
-    <entry key="command.butcher.info.console">Kill the type of mobs within the specified radius around the specified point in the specified world</entry>
     <entry key="command.butcher.syntax.player">[radius] [type] [x, y, z]</entry>
-    <entry key="command.butcher.info.player">Kill the type of mobs within the specified radius around you/the specified point</entry>
+	<entry key="command.butcher.info.console">Kill the type of mobs within the specified radius around the specified point in the specified world.</entry>
+    <entry key="command.butcher.info.player">Kill the type of mobs within the specified radius around you/the specified point.</entry>
 
     <entry key="command.capabilities.syntax.console">[player] [capability] [value|default]</entry>
     <entry key="command.capabilities.syntax.player">[player] [capability] [value|default]</entry>
-    <entry key="command.capabilities.info.console">Allows you to modify a bunch of interesting stuff related to the player</entry>
-    <entry key="command.capabilities.info.player">Allows you to modify a bunch of interesting stuff related to the player</entry>
-    
+    <entry key="command.capabilities.info.console">Allows you to modify a bunch of interesting stuff related to the player.</entry>
+    <entry key="command.capabilities.info.player">Allows you to modify a bunch of interesting stuff related to the player.</entry>
+        
+    <entry key="command.clear.syntax.console">&lt;player> [id] [meta]</entry>
+    <entry key="command.clear.syntax.player">[player] [id] [meta]</entry>
+    <entry key="command.clear.info.console">Cleans [player]s inventory.</entry>
+    <entry key="command.clear.info.player">Cleans your inventory.</entry>
+	
+	<entry key="command.colorize.syntax.console"></entry>
+    <entry key="command.colorize.syntax.player"></entry>
+    <entry key="command.colorize.info.console"></entry>
+    <entry key="command.colorize.info.player">Next sign you hit will colorize.</entry>
+	
+	<entry key="command.craft.syntax.console"></entry>
+    <entry key="command.craft.syntax.player"></entry>
+    <entry key="command.craft.info.console"></entry>
+    <entry key="command.craft.info.player">Open a workbench.</entry>
+	
+	<entry key="command.doas.syntax.console">&lt;player> [cmd] [args ...]</entry>
+    <entry key="command.doas.syntax.player">&lt;player> [cmd] [args ...]</entry>
+    <entry key="command.doas.info.console">Execute a command as a different player.</entry>
+    <entry key="command.doas.info.player">Execute a command as a different player.</entry>
+	
+	<entry key="command.enchant.syntax.console"></entry>
+    <entry key="command.enchant.syntax.player">[ench name] [lvl]</entry>
+    <entry key="command.enchant.info.console"></entry>
+    <entry key="command.enchant.info.player">Enchant the item you are holding.</entry>
+	
     <entry key="command.enderchest.syntax.console"></entry>
     <entry key="command.enderchest.syntax.player"></entry>
     <entry key="command.enderchest.info.console">Reload ForgeEssentials' configs</entry>
     <entry key="command.enderchest.info.player">Reload ForgeEssentials' configs</entry>
     
+	<entry key="command.gamemode.syntax.console">&lt;player> [gamemode]</entry>
+    <entry key="command.gamemode.syntax.player">[player|gamemode] [gamemode|player]</entry>
+    <entry key="command.gamemode.info.console">Changes gamemode of player.</entry>
+    <entry key="command.gamemode.info.player">Changes gamemode.</entry>
+	
+	<entry key="command.getcommandbook.syntax.console"></entry>
+    <entry key="command.getcommandbook.syntax.player"></entry>
+    <entry key="command.getcommandbook.info.console"></entry>
+    <entry key="command.getcommandbook.info.player">Gets a helpfull command book.</entry>
+	
+	<entry key="command.give.syntax.console"></entry>
+    <entry key="command.give.syntax.player"></entry>
+    <entry key="command.give.info.console"></entry>
+    <entry key="command.give.info.player">Gets a helpfull command book.</entry>
+	
     <entry key="command.heal.info.player">Restores the target's health, hunger and extinguishes them</entry>
     <entry key="command.heal.info.console">Restores the target's health, hunger and extinguishes them</entry>
     <entry key="command.heal.syntax.player">&lt;player></entry>
