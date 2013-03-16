@@ -33,6 +33,71 @@
     <entry key="command.backup.info.player">Make a backup of everything or only specified folder/world.</entry>
 	<!-- End localization for ModuleBackup -->
 	
+	<!-- Begin localization for ModuleChat -->
+	<entry key="command.automessage.syntax.console"></entry>
+    <entry key="command.automessage.syntax.player"></entry>
+    <entry key="command.automessage.info.console">Select a message, broadcast a message, add or remove messages</entry>
+    <entry key="command.automessage.info.player">Select a message, broadcast a message, add or remove messages</entry>
+	
+	<entry key="command.mail.syntax.console">&lt;player> &lt;message ...></entry>
+    <entry key="command.mail.syntax.player">&lt;player> &lt;message ...></entry>
+    <entry key="command.mail.info.console">Send a message to someone. Can be read later.</entry>
+    <entry key="command.mail.info.player">Send a message to someone.  Can be read later.</entry>
+	
+	<entry key="command.mail.posted">Posted message to %s.</entry>
+	<entry key="command.mail.unknown">%s has never been on the server.</entry>
+	
+	<entry key="command.msg.syntax.console">&lt;player> &lt;message></entry>
+    <entry key="command.msg.syntax.player">&lt;player> &lt;message></entry>
+    <entry key="command.msg.info.console">Send a private message to someone.</entry>
+    <entry key="command.msg.info.player">Send a private message to someone.</entry>
+	
+	<entry key="command.mute.syntax.console">&lt;player> &lt;message></entry>
+    <entry key="command.mute.syntax.player">&lt;player> &lt;message></entry>
+    <entry key="command.mute.info.console">Send a private message to someone.</entry>
+    <entry key="command.mute.info.player">Send a private message to someone.</entry>
+	
+	<entry key="command.mute.youMuted">You muted %s.</entry>
+	<entry key="command.mute.muted">You where muted by %s.</entry>
+	
+	<entry key="command.nickname.syntax.console">&lt;player> &lt;nickname|del></entry>
+    <entry key="command.nickname.syntax.player">[player] &lt;nickname|del></entry>
+    <entry key="command.nickname.info.console">Set or remove a nickname</entry>
+    <entry key="command.nickname.info.player">Set or remove a nickname</entry>
+	
+	<entry key="command.nickname.self.remove">Nickname removed</entry>
+	<entry key="command.nickname.self.set">Nickname set to %n</entry>
+	<entry key="command.nickname.others.remove">Nickname of player %p removed</entry>
+	<entry key="command.nickname.others.set">Nickname of player %p set to %n</entry>
+	
+	<entry key="command.pm.syntax.console">[help]</entry>
+    <entry key="command.pm.syntax.player">[help]</entry>
+    <entry key="command.pm.info.console">Engage in a pm conversation. Use /pm to go back to normal chat.</entry>
+    <entry key="command.pm.info.player">Engage in a pm conversation. Use /pm to go back to normal chat.</entry>
+	
+	<entry key="command.pm.disabled">Persistent message disabled.</entry>
+	<entry key="command.pm.alreadyDisabled">Persistent message already disabled.</entry>
+	<entry key="command.pm.help">Use /pm &lt;player> to engage persistent message. /pm to return to normal chat.</entry>
+	<entry key="command.pm.enable">Persistent message to %s enabled.</entry>
+	
+    <entry key="command.r.syntax.console">&lt;message></entry>
+    <entry key="command.r.syntax.player">&lt;message></entry>
+    <entry key="command.r.info.console">Respond to the last person you messaged or who messaged you</entry>
+    <entry key="command.r.info.player">Respond to the last person you messaged or who messaged you</entry>
+	
+	<entry key="command.unmute.syntax.console">&lt;player> &lt;message></entry>
+    <entry key="command.unmute.syntax.player">&lt;player> &lt;message></entry>
+    <entry key="command.unmute.info.console">Send a private message to someone.</entry>
+    <entry key="command.unmute.info.player">Send a private message to someone.</entry>
+	
+	<entry key="command.unmute.youMuted">You unmuted %s.</entry>
+	<entry key="command.unmute.muted">You where unmuted by %s.</entry>
+	
+	<entry key="message.muted">You are muted.</entry>
+	<entry key="message.mail.header">--- Your mail ---</entry>
+	<entry key="message.mail.footer">--- End of mail ---</entry>
+	<!-- End localization for ModuleChat -->
+	
 	<!-- Begin localization for ModuleCommands -->
     <entry key="command.afk.syntax.console"></entry>
     <entry key="command.afk.syntax.player"></entry>
@@ -367,74 +432,17 @@
     <entry key="command.warp.info.player">Teleport you to a warp point</entry>
 	<!-- End localization for ModuleCommands -->
 	
-	<!-- Begin localization for ModuleChat -->
-	<entry key="command.automessage.syntax.console"></entry>
-    <entry key="command.automessage.syntax.player"></entry>
-    <entry key="command.automessage.info.console">Select a message, broadcast a message, add or remove messages</entry>
-    <entry key="command.automessage.info.player">Select a message, broadcast a message, add or remove messages</entry>
+	<!-- Begin localization for Core -->
+	<entry key="command.fedesel.syntax.console"></entry>
+    <entry key="command.fedesel.syntax.player"></entry>
+    <entry key="command.fedesel.info.console"></entry>
+    <entry key="command.fedesel.info.player">Clears the currently selected area.</entry>
 	
-	<entry key="command.mail.syntax.console">&lt;player> &lt;message ...></entry>
-    <entry key="command.mail.syntax.player">&lt;player> &lt;message ...></entry>
-    <entry key="command.mail.info.console">Send a message to someone. Can be read later.</entry>
-    <entry key="command.mail.info.player">Send a message to someone.  Can be read later.</entry>
+	<entry key="command.fedesel.syntax.console"></entry>
+    <entry key="command.fedesel.syntax.player"></entry>
+    <entry key="command.fedesel.info.console"></entry>
+    <entry key="command.fedesel.info.player">Clears the currently selected area.</entry>
 	
-	<entry key="command.mail.posted">Posted message to %s.</entry>
-	<entry key="command.mail.unknown">%s has never been on the server.</entry>
-	
-	<entry key="command.msg.syntax.console">&lt;player> &lt;message></entry>
-    <entry key="command.msg.syntax.player">&lt;player> &lt;message></entry>
-    <entry key="command.msg.info.console">Send a private message to someone.</entry>
-    <entry key="command.msg.info.player">Send a private message to someone.</entry>
-	
-	<entry key="command.mute.syntax.console">&lt;player> &lt;message></entry>
-    <entry key="command.mute.syntax.player">&lt;player> &lt;message></entry>
-    <entry key="command.mute.info.console">Send a private message to someone.</entry>
-    <entry key="command.mute.info.player">Send a private message to someone.</entry>
-	
-	<entry key="command.mute.youMuted">You muted %s.</entry>
-	<entry key="command.mute.muted">You where muted by %s.</entry>
-	
-	<entry key="command.nickname.syntax.console">&lt;player> &lt;nickname|del></entry>
-    <entry key="command.nickname.syntax.player">[player] &lt;nickname|del></entry>
-    <entry key="command.nickname.info.console">Set or remove a nickname</entry>
-    <entry key="command.nickname.info.player">Set or remove a nickname</entry>
-	
-	<entry key="command.nickname.self.remove">Nickname removed</entry>
-	<entry key="command.nickname.self.set">Nickname set to %n</entry>
-	<entry key="command.nickname.others.remove">Nickname of player %p removed</entry>
-	<entry key="command.nickname.others.set">Nickname of player %p set to %n</entry>
-	
-	<entry key="command.pm.syntax.console">[help]</entry>
-    <entry key="command.pm.syntax.player">[help]</entry>
-    <entry key="command.pm.info.console">Engage in a pm conversation. Use /pm to go back to normal chat.</entry>
-    <entry key="command.pm.info.player">Engage in a pm conversation. Use /pm to go back to normal chat.</entry>
-	
-	<entry key="command.pm.disabled">Persistent message disabled.</entry>
-	<entry key="command.pm.alreadyDisabled">Persistent message already disabled.</entry>
-	<entry key="command.pm.help">Use /pm &lt;player> to engage persistent message. /pm to return to normal chat.</entry>
-	<entry key="command.pm.enable">Persistent message to %s enabled.</entry>
-	
-    <entry key="command.r.syntax.console">&lt;message></entry>
-    <entry key="command.r.syntax.player">&lt;message></entry>
-    <entry key="command.r.info.console">Respond to the last person you messaged or who messaged you</entry>
-    <entry key="command.r.info.player">Respond to the last person you messaged or who messaged you</entry>
-	
-	<entry key="command.unmute.syntax.console">&lt;player> &lt;message></entry>
-    <entry key="command.unmute.syntax.player">&lt;player> &lt;message></entry>
-    <entry key="command.unmute.info.console">Send a private message to someone.</entry>
-    <entry key="command.unmute.info.player">Send a private message to someone.</entry>
-	
-	<entry key="command.unmute.youMuted">You unmuted %s.</entry>
-	<entry key="command.unmute.muted">You where unmuted by %s.</entry>
-	
-	<entry key="message.muted">You are muted.</entry>
-	<entry key="message.mail.header">--- Your mail ---</entry>
-	<entry key="message.mail.footer">--- End of mail ---</entry>
-	<!-- End localization for ModuleChat -->
-	
-    <entry key="message.done">Done!</entry>
-    <entry key="message.healed">Healed.</entry>
-    
 	<entry key="message.credits.AbrarSyed">Lead dev and permissions system</entry>
     <entry key="message.credits.Bob_A_Red_Dino">Essentials-like commands</entry>
     <entry key="message.credits.bspkrs">Helped with the coremod, no longer active</entry>
@@ -442,6 +450,52 @@
     <entry key="message.credits.luacs1998">The IRC channel's Hitler</entry>
     <entry key="message.credits.Malkierian">Latecoming bugsquasher.  The ADD coder (he's all over the place in here)</entry>
     <entry key="message.credits.MysteriousAges">Backend, WorldControl commands, neurotic formatting</entry>
+	<!-- End localization for Core -->
+	
+	<!-- Begin localization for ModuleEconomy -->
+    <entry key="message.wallet.walletaddself"> added to your wallet.</entry>
+    <entry key="message.wallet.walletaddtarget"> added to the wallet.</entry>
+    <entry key="message.wallet.walletgetself">Your wallet contains </entry>
+    <entry key="message.wallet.walletgettarget">'s wallet contains </entry>
+    <entry key="message.wallet.walletremove">walletremove</entry>
+    <entry key="message.wallet.walletremoveself"> was removed from your wallet</entry>
+    <entry key="message.wallet.walletremovetarget"> was removed from the wallet.</entry>
+    <entry key="message.wallet.walletsetself">Your wallet was set to </entry>
+    <entry key="message.wallet.walletsettarget">Wallet set to </entry>
+    
+    <entry key="command.walletset.syntax.player">[&lt;player> &lt;amount to set>]</entry>
+    <entry key="command.walletset.info.player">Sets the target's wallet to the amount specified</entry>
+    <entry key="command.walletset.syntax.console">[&lt;player> &lt;wallet amount>]</entry>
+    <entry key="command.walletset.info.console">Sets the target's wallet to the amount specified</entry>
+    
+    <entry key="command.walletadd.syntax.player">[&lt;player> &lt;amount to add>]</entry>
+    <entry key="command.walletadd.info.player">Adds the specified amount to the target's wallet</entry>
+    <entry key="command.walletadd.syntax.console">[&lt;player> &lt;amount to add>]</entry>
+    <entry key="command.walletadd.info.console">Adds the specified amount to the target's wallet</entry>
+    
+    <entry key="command.walletremove.syntax.player">[&lt;player> &lt;amount to remove>]</entry>
+    <entry key="command.walletremove.info.player">Removes the specified amount from the target's wallet</entry>
+    <entry key="command.walletremove.syntax.console">[&lt;player> &lt;amount to remove>]</entry>
+    <entry key="command.walletremove.info.console">Removes the specified amount from the target's wallet</entry>
+    
+    <entry key="command.walletget.syntax.player">[&lt;player>]</entry>
+    <entry key="command.walletget.info.player">Returns the target's wallet</entry>
+    <entry key="command.walletget.syntax.console">[&lt;player>]</entry>
+    <entry key="command.walletget.info.console">Returns the target's wallet</entry>
+    
+    <entry key="command.pay.syntax.player">&lt;player> &lt;amount></entry>
+    <entry key="command.pay.info.player">Play the player the specified amount. You must have enough money</entry>
+    <entry key="command.pay.syntax.console">&lt;player> &lt;amount></entry>
+    <entry key="command.pay.info.console">Play the player the specified amount.</entry>
+    
+    <entry key="command.requestpayment.syntax.player">&lt;player> &lt;amount></entry>
+    <entry key="command.requestpayment.info.player">Request 'player' to pay that amount.</entry>
+    <entry key="command.requestpayment.syntax.console">&lt;player> &lt;amount></entry>
+    <entry key="command.requestpayment.info.console">Request 'player' to pay that amount.</entry>
+	<!-- End localization for ModuleEconomy -->
+	
+    <entry key="message.done">Done!</entry>
+    <entry key="message.healed">Healed.</entry>
 	
     <!-- Some localization for Errors -->
     <entry key="message.error.badsyntax">That won't work. Try this: </entry>
@@ -536,57 +590,6 @@
     <entry key="tile.air.name">Air</entry>
     
     <entry key="unit.seconds">sec</entry>
-    
-    <!-- Some localization for Economy -->
-    
-    <!-- SERVER ADMINS if you edit a command name such as walletset -->
-    <!-- make sure to change the command syntax and info below as well -->
-
-    <entry key="message.wallet.currencyplural">gold</entry>
-    <entry key="message.wallet.currencysingular">gold</entry>
-    <entry key="message.wallet.walletadd">walletadd</entry>
-    <entry key="message.wallet.walletaddself"> added to your wallet.</entry>
-    <entry key="message.wallet.walletaddtarget"> added to the wallet.</entry>
-    <entry key="message.wallet.walletget">walletget</entry>
-    <entry key="message.wallet.walletgetself">Your wallet contains </entry>
-    <entry key="message.wallet.walletgettarget">'s wallet contains </entry>
-    <entry key="message.wallet.walletname">wallet</entry>
-    <entry key="message.wallet.walletremove">walletremove</entry>
-    <entry key="message.wallet.walletremoveself"> was removed from your wallet</entry>
-    <entry key="message.wallet.walletremovetarget"> was removed from the wallet.</entry>
-    <entry key="message.wallet.walletset">walletset</entry>
-    <entry key="message.wallet.walletsetself">Your wallet was set to </entry>
-    <entry key="message.wallet.walletsettarget">Wallet set to </entry>
-    
-    <entry key="command.walletset.syntax.player">[&lt;player> &lt;amount to set>]</entry>
-    <entry key="command.walletset.info.player">Sets the target's wallet to the amount specified</entry>
-    <entry key="command.walletset.syntax.console">[&lt;player> &lt;wallet amount>]</entry>
-    <entry key="command.walletset.info.console">Sets the target's wallet to the amount specified</entry>
-    
-    <entry key="command.walletadd.syntax.player">[&lt;player> &lt;amount to add>]</entry>
-    <entry key="command.walletadd.info.player">Adds the specified amount to the target's wallet</entry>
-    <entry key="command.walletadd.syntax.console">[&lt;player> &lt;amount to add>]</entry>
-    <entry key="command.walletadd.info.console">Adds the specified amount to the target's wallet</entry>
-    
-    <entry key="command.walletremove.syntax.player">[&lt;player> &lt;amount to remove>]</entry>
-    <entry key="command.walletremove.info.player">Removes the specified amount from the target's wallet</entry>
-    <entry key="command.walletremove.syntax.console">[&lt;player> &lt;amount to remove>]</entry>
-    <entry key="command.walletremove.info.console">Removes the specified amount from the target's wallet</entry>
-    
-    <entry key="command.walletget.syntax.player">[&lt;player>]</entry>
-    <entry key="command.walletget.info.player">Returns the target's wallet</entry>
-    <entry key="command.walletget.syntax.console">[&lt;player>]</entry>
-    <entry key="command.walletget.info.console">Returns the target's wallet</entry>
-    
-    <entry key="command.pay.syntax.player">&lt;player> &lt;amount></entry>
-    <entry key="command.pay.info.player">Play the player the specified amount. You must have enough money</entry>
-    <entry key="command.pay.syntax.console">&lt;player> &lt;amount></entry>
-    <entry key="command.pay.info.console">Play the player the specified amount.</entry>
-    
-    <entry key="command.requestpayment.syntax.player">&lt;player> &lt;amount></entry>
-    <entry key="command.requestpayment.info.player">Request 'player' to pay that amount.</entry>
-    <entry key="command.requestpayment.syntax.console">&lt;player> &lt;amount></entry>
-    <entry key="command.requestpayment.info.console">Request 'player' to pay that amount.</entry>
     
     <!-- Some localization for Permissions -->
     <entry key="command.permissions.set.syntax">&lt;permissions> &lt;allow|deny> &lt;p:player|g:group> [zone]</entry>
