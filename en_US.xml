@@ -1,7 +1,31 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties version="1.0">
     <comment>English (US) Localization File, &lt; is the less than or left arrow sign</comment>
-    
+    <!-- Begin localization for ModuleAfterlife -->
+	<entry key="message.afterlife.protectionEnabled">This grave is still under Notch's protection.</entry>
+	<!-- End localization for ModuleAfterlife -->
+	
+	<!-- Begin localization for ModuleAuth -->
+	<entry key="command.login.syntax.console">&lt;paswd></entry>
+    <entry key="command.login.syntax.player">&lt;paswd></entry>
+    <entry key="command.login.info.console">Log in.</entry>
+    <entry key="command.login.info.player">Log in.</entry>
+	
+	<entry key="command.login.wrongpass">Wrong pass!</entry>
+	<entry key="command.login.register">You have not registerd. Use /register &lt;pwd></entry>
+	
+	<entry key="command.register.syntax.console">&lt;paswd></entry>
+    <entry key="command.register.syntax.player">&lt;paswd></entry>
+    <entry key="command.register.info.console">Register.</entry>
+    <entry key="command.register.info.player">Register.</entry>
+	
+	<entry key="command.register.register">You have been registerd. Use /login &lt;pwd></entry>
+	
+	<entry key="message.afterlife.login">Please use '%s' to login.</entry>
+	<entry key="message.afterlife.register">Please use '%s' to register.</entry>
+	<entry key="message.afterlife.success">Successfully logged in.</entry>
+	<!-- End localization for ModuleAuth -->
+	
 	<!-- Begin localization for ModuleCommands -->
     <entry key="command.afk.syntax.console"></entry>
     <entry key="command.afk.syntax.player"></entry>
@@ -395,6 +419,10 @@
 	
 	<entry key="command.unmute.youMuted">You unmuted %s.</entry>
 	<entry key="command.unmute.muted">You where unmuted by %s.</entry>
+	
+	<entry key="message.muted">You are muted.</entry>
+	<entry key="message.mail.header">--- Your mail ---</entry>
+	<entry key="message.mail.footer">--- End of mail ---</entry>
 	<!-- End localization for ModuleChat -->
 	
     <entry key="message.done">Done!</entry>
