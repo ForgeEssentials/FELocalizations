@@ -95,6 +95,9 @@
     <entry key="command.gamemode.info.console">Changes gamemode of 'player'.</entry>
     <entry key="command.gamemode.info.player">Changes gamemode.</entry>
 	
+	<entry key="command.gamemode.changed">Gamemode changed of %s$1 to %s$2</entry>
+	<entry key="command.gamemode.invalidParm">Invalid gametype or username: %s</entry>
+	
 	<entry key="command.getcommandbook.syntax.console"></entry>
     <entry key="command.getcommandbook.syntax.player"></entry>
     <entry key="command.getcommandbook.info.console"></entry>
@@ -105,11 +108,15 @@
     <entry key="command.give.info.console">Spawn in items for 'player'.</entry>
     <entry key="command.give.info.player">Spawn in items for 'player'. Use /i to spawn in items for yourself.</entry>
 	
+	<entry key="command.give.given">Giving %s$1 %d of %s$2</entry>
+	
     <entry key="command.heal.info.player">Restores the target's health, hunger and extinguishes them</entry>
     <entry key="command.heal.info.console">Restores the target's health, hunger and extinguishes them</entry>
     <entry key="command.heal.syntax.player">[player]</entry>
     <entry key="command.heal.syntax.console">&lt;player></entry>
     
+	<entry key="command.heal.healed">You have been healed.</entry>
+	
 	<entry key="command.home.syntax.console"></entry>
     <entry key="command.home.syntax.player">[here|x, y, z]</entry>
 	<entry key="command.home.info.console"></entry>
@@ -118,16 +125,79 @@
     <entry key="command.home.confirm">Home set to: %1$d, %2$d, %3$d</entry>
 	<entry key="command.home.nohome">No home set. Try this: </entry>
 
+	<entry key="command.i.syntax.console"></entry>
+    <entry key="command.i.syntax.player">&lt;item[:meta]> [amount]</entry>
+    <entry key="command.i.info.console">Use /give.</entry>
+    <entry key="command.i.info.player">Spawn in items for you.</entry>
+	
+	<entry key="command.i.given">Giving %d of %s</entry>
+	
+	<entry key="command.jump.syntax.console"></entry>
+    <entry key="command.jump.syntax.player"></entry>
+    <entry key="command.jump.info.console"></entry>
+    <entry key="command.jump.info.player"></entry>
+	
     <entry key="command.kill.syntax.console">&lt;player></entry>
     <entry key="command.kill.syntax.player">[player]</entry>
     <entry key="command.kill.info.console">Kill the specified player</entry>
     <entry key="command.kill.info.player">Kill yourself or the specified player</entry>
+	
+	<entry key="command.kill.msg">You were killed. You probably deserved it.</entry>
 
+	<entry key="command.kit.syntax.console"></entry>
+	<entry key="command.kit.syntax.player">[name] OR [name] [set|del] &lt;cooldown></entry>
+	<entry key="command.kit.info.console"></entry>
+    <entry key="command.kit.info.player">Get free kits pre-defined by the server owner</entry>
+    
+    <entry key="command.kit.alreadyExists">This carepackage already exists.</entry>
+    <entry key="command.kit.done">Carepackage dropped.</entry>
+    <entry key="command.kit.list">This is a list of all available carepackages:</entry>
+    <entry key="command.kit.made">Carepackage made. %c sec cooldown.</entry>
+    <entry key="command.kit.noExists">This is a list of all available carepackages:</entry>
+    <entry key="command.kit.removed">Carepackage removed.</entry>
+    <entry key="command.kit.stillInCooldown">Carepackage cooldown active, %c seconds to go!</entry>
+    
+	<entry key="command.locate.syntax.console">&lt;player></entry>
+    <entry key="command.locate.syntax.player">&lt;player></entry>
+    <entry key="command.locate.info.console">Returns location of 'player'.</entry>
+    <entry key="command.locate.info.player">Returns location of 'player'.</entry>
+    
+	<entry key="command.locate.msg">%s is at %1$d, %2$d, %3$d in dim %4$d</entry>
+	
+    <entry key="command.modlist.syntax.console">[page]</entry>
+    <entry key="command.modlist.syntax.player">[page]</entry>
+    <entry key="command.modlist.info.console">Get a list of mods used by the server</entry>
+    <entry key="command.modlist.info.player">Get a list of mods used by the server</entry>
+	
+	<entry key="command.modlist.header">--- Showing modlist page %p of %t ---</entry>
+	
     <entry key="command.motd.syntax.console">[reload]</entry>
-    <entry key="command.motd.syntax.player">[relaod]</entry>
+    <entry key="command.motd.syntax.player">[reload]</entry>
     <entry key="command.motd.info.console">Display or reload the message of the day.</entry>
     <entry key="command.motd.info.player">Display or reload the message of the day.</entry>
     
+	<entry key="command.personalwarp.syntax.console"></entry>
+	<entry key="command.personalwarp.syntax.player">[name] OR &lt;set|del> &lt;name> </entry>
+	<entry key="command.personalwarp.info.console"></entry>
+    <entry key="command.personalwarp.info.player">Teleport you to a personal warp.</entry>
+	
+	<entry key="command.personalwarp.notfound">That PW doesn't exist!</entry>
+    <entry key="command.personalwarp.list">Your PWs:</entry>
+	<entry key="command.personalwarp.made">PW added.</entry>
+	<entry key="command.personalwarp.remove">PW removed.</entry>
+    <entry key="command.personalwarp.alreadyexists">That warp already exists.</entry>
+
+	<entry key="command.ping.syntax.console"></entry>
+    <entry key="command.ping.syntax.player"></entry>
+    <entry key="command.ping.info.console">Ping the server.</entry>
+    <entry key="command.ping.info.player">Ping the server.</entry>
+	
+    <entry key="command.potion.syntax.console">&lt;player> &lt;effect> &lt;duration> [ampl]</entry>
+    <entry key="command.potion.syntax.player">&lt;player> &lt;effect> &lt;duration> [ampl]</entry>
+    <entry key="command.potion.info.console">Give someone a potion effect</entry>
+    <entry key="command.potion.info.player">Give someone a potion effect</entry>
+	<entry key="command.potion.effectnotfound">That potion effect is not found.</entry>
+	
 	<entry key="command.nickname.syntax.console">&lt;player> &lt;nickname|del></entry>
     <entry key="command.nickname.syntax.player">[player] &lt;nickname|del></entry>
     <entry key="command.nickname.info.console">Set or remove a nickname</entry>
@@ -142,13 +212,7 @@
     <entry key="command.msg.syntax.player">&lt;player> &lt;message></entry>
     <entry key="command.msg.info.console">Send a private message to someone</entry>
     <entry key="command.msg.info.player">Send a private message to someone</entry>
-
-    <entry key="command.potion.effectnotfound">That potion effect is not found.</entry>
-    <entry key="command.potion.syntax.console">&lt;player> &lt;effect> &lt;duration> [ampl]</entry>
-    <entry key="command.potion.syntax.player">&lt;player> &lt;effect> &lt;duration> [ampl]</entry>
-    <entry key="command.potion.info.console">Give someone a potion effect</entry>
-    <entry key="command.potion.info.player">Give someone a potion effect</entry>
-    
+	
     <entry key="command.r.syntax.console">&lt;message></entry>
     <entry key="command.r.syntax.player">&lt;message></entry>
     <entry key="command.r.info.console">Respond to the last person you messaged or who messaged you</entry>
@@ -216,7 +280,6 @@
     <entry key="message.butchered">%d mobs killed.</entry>
     <entry key="message.done">Done!</entry>
     <entry key="message.healed">Healed.</entry>
-    <entry key="message.killed">You were killed. You probably deserved it.</entry>
     <entry key="message.removed">%d items removed.</entry>
     <entry key="message.smite.self">Was that really a good idea?</entry>
     <entry key="message.smite.player">You should feel bad about doing that.</entry>
@@ -250,12 +313,6 @@
     <entry key="message.tc.cooldown">Cooldown still active. Still got %c seconds to go.</entry>
     <entry key="message.tc.done">*poof*</entry>
     <entry key="message.tc.warmup">Stand still for %w seconds.</entry>
-    
-    <entry key="command.modlist.header">--- Showing modlist page %p of %t ---</entry>
-    <entry key="command.modlist.syntax.console">[page]</entry>
-    <entry key="command.modlist.syntax.player">[page]</entry>
-    <entry key="command.modlist.info.console">Get a list of mods used by the server</entry>
-    <entry key="command.modlist.info.player">Get a list of mods used by the server</entry>
     
     <entry key="command.zone.info.player">Define, remove, and edit zones</entry>
     <entry key="command.zone.syntax.player">&lt;define|redefine|remove|setparent &lt;newParent>> &lt;zoneID></entry>
@@ -388,18 +445,6 @@
     <entry key="command.requestpayment.info.player">Request 'player' to pay that amount.</entry>
     <entry key="command.requestpayment.syntax.console">&lt;player> &lt;amount></entry>
     <entry key="command.requestpayment.info.console">Request 'player' to pay that amount.</entry>
-    
-        <!-- Some localization for Kits -->
-    <entry key="command.kit.syntax.player">[name] OR [name] [set|del] &lt;cooldown></entry>
-    <entry key="command.kit.info.player">Get free kits pre-defined by the server owner</entry>
-    
-    <entry key="command.kit.alreadyExists">This carepackage already exists.</entry>
-    <entry key="command.kit.done">Carepackage dropped.</entry>
-    <entry key="command.kit.list">This is a list of all available carepackages:</entry>
-    <entry key="command.kit.made">Carepackage made. %c sec cooldown.</entry>
-    <entry key="command.kit.noExists">This is a list of all available carepackages:</entry>
-    <entry key="command.kit.removed">Carepackage removed.</entry>
-    <entry key="command.kit.stillInCooldown">Carepackage cooldown active, %c seconds to go!</entry>
     
     <!-- Some localization for Permissions -->
     <entry key="command.permissions.set.syntax">&lt;permissions> &lt;allow|deny> &lt;p:player|g:group> [zone]</entry>
