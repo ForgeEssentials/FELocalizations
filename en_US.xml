@@ -26,6 +26,13 @@
 	<entry key="message.afterlife.success">Successfully logged in.</entry>
 	<!-- End localization for ModuleAuth -->
 	
+	<!-- Begin localization for ModuleBackup -->
+	<entry key="command.backup.syntax.console">[dimID|foldername]</entry>
+    <entry key="command.backup.syntax.player">[dimID|foldername]</entry>
+    <entry key="command.backup.info.console">Make a backup of everything or only specified folder/world.</entry>
+    <entry key="command.backup.info.player">Make a backup of everything or only specified folder/world.</entry>
+	<!-- End localization for ModuleBackup -->
+	
 	<!-- Begin localization for ModuleCommands -->
     <entry key="command.afk.syntax.console"></entry>
     <entry key="command.afk.syntax.player"></entry>
