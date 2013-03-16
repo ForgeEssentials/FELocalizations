@@ -2,28 +2,40 @@
 <properties version="1.0">
     <comment>English (US) Localization File, &lt; is the less than or left arrow sign</comment>
     
+	<!-- Localization for ModuleCommands -->
     <entry key="command.afk.syntax.console"></entry>
     <entry key="command.afk.syntax.player"></entry>
     <entry key="command.afk.info.console"></entry>
     <entry key="command.afk.info.player">Puts you in afk mode.</entry>
     
+	<entry key="command.afk.warmup">Stand still for %d seconds.</entry>
+	<entry key="command.afk.in">You are now AFK.</entry>
+	<entry key="command.afk.out">AFK lifted.</entry>
+	
     <entry key="command.back.syntax.console">/back</entry>
     <entry key="command.back.syntax.player">/back</entry>
     <entry key="command.back.info.console"></entry>
     <entry key="command.back.info.player">Teleport you to your last death or teleport location.</entry>
     
+	<entry key="command.back.noback">You have nowhere to get back to.</entry>
+	
     <entry key="command.bed.syntax.console"></entry>
     <entry key="command.bed.syntax.player"></entry>
     <entry key="command.bed.info.console"></entry>
     <entry key="command.bed.info.player">Teleports you to your spawn point or bed.</entry>
     
+	<entry key="command.bed.done">You have been teleported to your spawn point.</entry>
+	
     <entry key="command.burn.syntax.console">&lt;player></entry>
     <entry key="command.burn.syntax.player">[me|&lt;player>]</entry>
     <entry key="command.burn.info.console">Set the specified player on fire.</entry>
     <entry key="command.burn.info.player">Set yourself or the specified player on fire.</entry>
 
-    <entry key="command.butcher.syntax.console">&lt;radius> &lt;type> &lt;x, y, z> &lt;worldID></entry>
-    <entry key="command.butcher.syntax.player">[radius] [type] [x, y, z]</entry>
+	<entry key="command.burn.self">Ouch! Hot!</entry>
+    <entry key="command.burn.player">You should feel bad about doing that.</entry>
+	
+    <entry key="command.butcher.syntax.console">&lt;radius|-1|world> &lt;type> &lt;x, y, z> &lt;dimID></entry>
+    <entry key="command.butcher.syntax.player">[radius|-1|world] [type] [x, y, z]</entry>
 	<entry key="command.butcher.info.console">Kill the type of mobs within the specified radius around the specified point in the specified world.</entry>
     <entry key="command.butcher.info.player">Kill the type of mobs within the specified radius around you/the specified point.</entry>
 
@@ -31,16 +43,26 @@
     <entry key="command.capabilities.syntax.player">[player] [capability] [value|default]</entry>
     <entry key="command.capabilities.info.console">Allows you to modify a bunch of interesting stuff related to the player.</entry>
     <entry key="command.capabilities.info.player">Allows you to modify a bunch of interesting stuff related to the player.</entry>
-        
+    
+	<entry key="command.capabilities.list">Possible capabilities:</entry>
+	<entry key="command.capabilities.listForX">Capabilities for %s:</entry>
+	<entry key="command.capabilities.capabilityUnknown">Capability '%s' unknown.</entry>
+	
     <entry key="command.clear.syntax.console">&lt;player> [id] [meta]</entry>
     <entry key="command.clear.syntax.player">[player] [id] [meta]</entry>
-    <entry key="command.clear.info.console">Cleans [player]s inventory.</entry>
+    <entry key="command.clear.info.console">Cleans 'player's inventory.</entry>
     <entry key="command.clear.info.player">Cleans your inventory.</entry>
+	
+	<entry key="command.clear.doneSelf">Cleared inventory.</entry>
+	<entry key="command.clear.doneBy">Inventory was cleared by %s.</entry>
+	<entry key="command.clear.doneOf">Cleared inventory of %s.</entry>
 	
 	<entry key="command.colorize.syntax.console"></entry>
     <entry key="command.colorize.syntax.player"></entry>
     <entry key="command.colorize.info.console"></entry>
     <entry key="command.colorize.info.player">Next sign you hit will colorize.</entry>
+	
+	<entry key="command.colorize.msg">Click a sign to colorize!</entry>
 	
 	<entry key="command.craft.syntax.console"></entry>
     <entry key="command.craft.syntax.player"></entry>
@@ -52,10 +74,16 @@
     <entry key="command.doas.info.console">Execute a command as a different player.</entry>
     <entry key="command.doas.info.player">Execute a command as a different player.</entry>
 	
+	<entry key="command.doas.attempt">Player %s is attempting to issue a command as you.</entry>
+	<entry key="command.doas.success">Successfully issued command as %s.</entry>
+	
 	<entry key="command.enchant.syntax.console"></entry>
     <entry key="command.enchant.syntax.player">[ench name] [lvl]</entry>
     <entry key="command.enchant.info.console"></entry>
     <entry key="command.enchant.info.player">Enchant the item you are holding.</entry>
+	
+	<entry key="command.enchant.noItem">You are not holding an item.</entry>
+	<entry key="command.enchant.notFound">'%s' is not a known enchantment.</entry>
 	
     <entry key="command.enderchest.syntax.console"></entry>
     <entry key="command.enderchest.syntax.player"></entry>
@@ -64,7 +92,7 @@
     
 	<entry key="command.gamemode.syntax.console">&lt;player> [gamemode]</entry>
     <entry key="command.gamemode.syntax.player">[player|gamemode] [gamemode|player]</entry>
-    <entry key="command.gamemode.info.console">Changes gamemode of player.</entry>
+    <entry key="command.gamemode.info.console">Changes gamemode of 'player'.</entry>
     <entry key="command.gamemode.info.player">Changes gamemode.</entry>
 	
 	<entry key="command.getcommandbook.syntax.console"></entry>
@@ -72,19 +100,23 @@
     <entry key="command.getcommandbook.info.console"></entry>
     <entry key="command.getcommandbook.info.player">Gets a helpfull command book.</entry>
 	
-	<entry key="command.give.syntax.console"></entry>
-    <entry key="command.give.syntax.player"></entry>
-    <entry key="command.give.info.console"></entry>
-    <entry key="command.give.info.player">Gets a helpfull command book.</entry>
+	<entry key="command.give.syntax.console">&lt;player> &lt;item[:meta]> [amount]</entry>
+    <entry key="command.give.syntax.player">&lt;player> &lt;item[:meta]> [amount]</entry>
+    <entry key="command.give.info.console">Spawn in items for 'player'.</entry>
+    <entry key="command.give.info.player">Spawn in items for 'player'. Use /i to spawn in items for yourself.</entry>
 	
     <entry key="command.heal.info.player">Restores the target's health, hunger and extinguishes them</entry>
     <entry key="command.heal.info.console">Restores the target's health, hunger and extinguishes them</entry>
-    <entry key="command.heal.syntax.player">&lt;player></entry>
+    <entry key="command.heal.syntax.player">[player]</entry>
     <entry key="command.heal.syntax.console">&lt;player></entry>
     
+	<entry key="command.home.syntax.console"></entry>
     <entry key="command.home.syntax.player">[here|x, y, z]</entry>
+	<entry key="command.home.info.console"></entry>
     <entry key="command.home.info.player">Teleport you to/sets your home</entry>
+	
     <entry key="command.home.confirm">Home set to: %1$d, %2$d, %3$d</entry>
+	<entry key="command.home.nohome">No home set. Try this: </entry>
 
     <entry key="command.kill.syntax.console">&lt;player></entry>
     <entry key="command.kill.syntax.player">[player]</entry>
@@ -181,8 +213,6 @@
     <entry key="command.serverdo.syntax.player">&lt;command> [arg1]...</entry>
     <entry key="command.serverdo.info.player">Run a console command as a player</entry>
 
-    <entry key="message.burn.self">Ouch! Hot!</entry>
-    <entry key="message.burn.player">You should feel bad about doing that.</entry>
     <entry key="message.butchered">%d mobs killed.</entry>
     <entry key="message.done">Done!</entry>
     <entry key="message.healed">Healed.</entry>
@@ -192,7 +222,6 @@
     <entry key="message.smite.player">You should feel bad about doing that.</entry>
     <entry key="message.smite.ground">I hope that didn't start a fire.</entry>
     <entry key="message.spawned">Teleporting to spawn.</entry>
-    <entry key="message.noroom">No room to spawn.</entry>
     
     <entry key="message.credits.AbrarSyed">Lead dev and permissions system</entry>
     <entry key="message.credits.Bob_A_Red_Dino">Essentials-like commands</entry>
@@ -210,7 +239,6 @@
     <entry key="message.error.noMobX">Mob %s does not exist.</entry>
     <entry key="message.error.noPlayerX">Player %s does not exist, or is not online.</entry>
     <entry key="message.error.nodeathpoint">You have not died yet.</entry>
-    <entry key="message.error.nohome">No home set. Try this: </entry>
     <entry key="message.error.nopage">No page of that number exists!</entry>
     <entry key="message.error.noselection">That's an invalid selection. Select something first.</entry>
     <entry key="message.error.permdenied">You are not allowed to do that.</entry>
