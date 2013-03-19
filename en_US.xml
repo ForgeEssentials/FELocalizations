@@ -507,6 +507,7 @@
     <entry key="message.error.nopage">No page of that number exists!</entry>
     <entry key="message.error.noselection">That's an invalid selection. Select something first.</entry>
     <entry key="message.error.permdenied">You are not allowed to do that.</entry>
+    <entry key="message.error.cantUseWand">You are not allowed to use the wand.</entry>
     <entry key="message.error.r.noPrevious">You have not messaged anyone since the last server restart.</entry>
     <entry key="message.error.target">You must look at the ground!</entry>
     
