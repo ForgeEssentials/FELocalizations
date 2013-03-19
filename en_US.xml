@@ -21,9 +21,9 @@
 	
 	<entry key="command.register.register">You have been registerd. Use /login &lt;pwd></entry>
 	
-	<entry key="message.afterlife.login">Please use '%s' to login.</entry>
-	<entry key="message.afterlife.register">Please use '%s' to register.</entry>
-	<entry key="message.afterlife.success">Successfully logged in.</entry>
+	<entry key="message.auth.login">Please use '%s' to login.</entry>
+	<entry key="message.auth.register">Please use '%s' to register.</entry>
+	<entry key="message.auth.success">Successfully logged in.</entry>
 	<!-- End localization for ModuleAuth -->
 	
 	<!-- Begin localization for ModuleBackup -->
@@ -507,7 +507,6 @@
     <entry key="message.error.nopage">No page of that number exists!</entry>
     <entry key="message.error.noselection">That's an invalid selection. Select something first.</entry>
     <entry key="message.error.permdenied">You are not allowed to do that.</entry>
-    <entry key="message.error.cantUseWand">You are not allowed to use the wand.</entry>
     <entry key="message.error.r.noPrevious">You have not messaged anyone since the last server restart.</entry>
     <entry key="message.error.target">You must look at the ground!</entry>
     
