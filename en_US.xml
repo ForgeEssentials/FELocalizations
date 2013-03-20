@@ -10,6 +10,7 @@
     <entry key="command.login.syntax.player">&lt;paswd></entry>
     <entry key="command.login.info.console">Log in.</entry>
     <entry key="command.login.info.player">Log in.</entry>
+	<entry key="command.login.already">You don't need to login.</entry>
 	
 	<entry key="command.login.wrongpass">Wrong pass!</entry>
 	<entry key="command.login.register">You have not registerd. Use /register &lt;pwd></entry>
