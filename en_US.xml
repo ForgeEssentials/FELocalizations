@@ -19,6 +19,7 @@
     <entry key="command.register.syntax.player">&lt;paswd></entry>
     <entry key="command.register.info.console">Register.</entry>
     <entry key="command.register.info.player">Register.</entry>
+	<entry key="command.register.already">You don't need to register.</entry>
 	
 	<entry key="command.register.register">You have been registerd. Use /login &lt;pwd></entry>
 	
