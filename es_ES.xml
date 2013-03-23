@@ -278,7 +278,7 @@
 	<entry key="command.personalwarp.syntax.console"></entry>
 	<entry key="command.personalwarp.syntax.player">[nombre] O &lt;set|del> &lt;nombre> </entry>
 	<entry key="command.personalwarp.info.console"></entry>
-    <entry key="command.personalwarp.info.player">Te eeletransporta a tu portal personal.</entry>
+    <entry key="command.personalwarp.info.player">Te teletransporta a tu portal personal.</entry>
 	
 	<entry key="command.personalwarp.notfound">Ese portal personal no existe!</entry>
     <entry key="command.personalwarp.list">Tus portales:</entry>
@@ -364,68 +364,68 @@
     <entry key="command.spawn.done">Teletransportado al punto de generación.</entry>
 	
     <entry key="command.spawnmob.syntax.console">&lt;criatura &lt;tipo> cantidad &lt;x> &lt;y> &lt;z> &lt;dimensión></entry>
-    <entry key="command.spawnmob.info.console">Spawn specified mob of amount at x,y,z or where you are looking</entry>
-    <entry key="command.spawnmob.syntax.player">&lt;mob type> &lt;amount> [&lt;x> &lt;y> &lt;z>] [dimension]</entry>
-    <entry key="command.spawnmob.info.player">Spawn specified mob of amount at x,y,z</entry>
-	<entry key="command.spawnmob.noMobX">Spawn specified mob of amount at x,y,z</entry>
+    <entry key="command.spawnmob.info.console">Crea la cantidad especificada de criaturas en x,y,z o donde estes mirando</entry>
+    <entry key="command.spawnmob.syntax.player">&lt;tipo criatura> &lt;cantidad> [&lt;x> &lt;y> &lt;z>] [dimensión]</entry>
+    <entry key="command.spawnmob.info.player">Crea la cantidad especificada de criaturas en x,y,z</entry>
+	<entry key="command.spawnmob.noMobX">Crea la cantidad especificada de criaturas en x,y,z</entry>
 	
-	<entry key="command.spawnmob.noMobX">Mob %s does not exist.</entry>
+	<entry key="command.spawnmob.noMobX">La criatura %s no existe.</entry>
 	
-	<entry key="command.top.info.player">Teleports you to the top of the world.</entry>
+	<entry key="command.top.info.player">Te teletransporta a lo alto del mundo.</entry>
     <entry key="command.top.info.console"></entry>
-    <entry key="command.top.syntax.player">[player]</entry>
+    <entry key="command.top.syntax.player">[jugador]</entry>
     <entry key="command.top.syntax.console">&lt;jugador></entry>
 	
-	<entry key="command.tp.info.player">Teleports you or a player to a player or x y z</entry>
-    <entry key="command.tp.info.console">Teleports a player to a player or x y z</entry>
-    <entry key="command.tp.syntax.player">[player] &lt;player|&lt;x> &lt;y> &lt;z>></entry>
-    <entry key="command.tp.syntax.console">&lt;jugador> &lt;player|&lt;x> &lt;y> &lt;z>></entry>
+	<entry key="command.tp.info.player">Teletransporta a ti o al jugador a x y z</entry>
+    <entry key="command.tp.info.console">Teletransporta a ti o al jugador a x y z</entry>
+    <entry key="command.tp.syntax.player">[jugador] &lt;jugador|&lt;x> &lt;y> &lt;z>></entry>
+    <entry key="command.tp.syntax.console">&lt;jugador> &lt;jugador|&lt;x> &lt;y> &lt;z>></entry>
     
-	<entry key="command.tpa.info.player">Teleports you or a player to a player or x y z.</entry>
-    <entry key="command.tpa.info.console">Teleports a player to a player or x y z.</entry>
-    <entry key="command.tpa.syntax.player">[player] &lt;player|&lt;x> &lt;y> &lt;z>></entry>
-    <entry key="command.tpa.syntax.console">&lt;jugador> &lt;player|&lt;x> &lt;y> &lt;z>></entry>
+	<entry key="command.tpa.info.player">Teletransporta a ti o al jugador a x y z.</entry>
+    <entry key="command.tpa.info.console">Teletransporta a ti o al jugador a x y z.</entry>
+    <entry key="command.tpa.syntax.player">[player] &lt;jugador|&lt;x> &lt;y> &lt;z>></entry>
+    <entry key="command.tpa.syntax.console">&lt;jugador> &lt;jugador|&lt;x> &lt;y> &lt;z>></entry>
 	
-	<entry key="command.tpa.accepted">TPA accepted.</entry>
-	<entry key="command.tpa.declined">TPA declined.</entry>
-	<entry key="command.tpa.sendRequest">Send a TPA request to %s.</entry>
-	<entry key="command.tpa.gotRequest">Got a TPA request from %s.</entry>
+	<entry key="command.tpa.accepted">TPA aceptado.</entry>
+	<entry key="command.tpa.declined">TPA rechazado.</entry>
+	<entry key="command.tpa.sendRequest">Envia una petición de TPA a %s.</entry>
+	<entry key="command.tpa.gotRequest">Recibida una petición TPA de %s.</entry>
 	
-	<entry key="command.tpa.gotTimeout">TPA from %s timed out.</entry>
-	<entry key="command.tpa.sendTimeout">TPA to %s timed out.</entry>
+	<entry key="command.tpa.gotTimeout">Agotado el tiempo de espera del TPA de %s.</entry>
+	<entry key="command.tpa.sendTimeout">Agotado el tiempo de espera del TPA a %s.</entry>
 	
-	<entry key="command.tpahere.accepted">TPAhere accepted.</entry>
-	<entry key="command.tpahere.declined">TPAhere declined.</entry>
-	<entry key="command.tpahere.sendRequest">Send a TPAhere request to %s.</entry>
-	<entry key="command.tpahere.gotRequest">Got a TPAhere request from %s.</entry>
+	<entry key="command.tpahere.accepted">TPAhere aceptado.</entry>
+	<entry key="command.tpahere.declined">TPAhere rechazado.</entry>
+	<entry key="command.tpahere.sendRequest">Envia una petición de TPAhere a %s.</entry>
+	<entry key="command.tpahere.gotRequest">Recibida una petición TPA de %s.</entry>
 	
-	<entry key="command.tpahere.gotTimeout">TPAhere from %s timed out.</entry>
-	<entry key="command.tpahere.sendTimeout">TPAhere to %s timed out.</entry>
+	<entry key="command.tpahere.gotTimeout">Agotado el tiempo de espera del TPAhere de %s.</entry>
+	<entry key="command.tpahere.sendTimeout">Agotado el tiempo de espera del TPAhere a %s.</entry>
 	
-	<entry key="command.tphere.info.player">Teleports a player to you.</entry>
+	<entry key="command.tphere.info.player">Teletransporta al jugador hasta ti.</entry>
     <entry key="command.tphere.info.console"></entry>
     <entry key="command.tphere.syntax.player"></entry>
     <entry key="command.tphere.syntax.console">&lt;jugador></entry>
 	
-	<entry key="command.tphere.info.player">Teleports ypu to x y z.</entry>
+	<entry key="command.tphere.info.player">Te teletransporta a x y z.</entry>
     <entry key="command.tphere.info.console"></entry>
     <entry key="command.tphere.syntax.player"></entry>
     <entry key="command.tphere.syntax.console">&lt;x> &lt;y> &lt;z></entry>
 	
-    <entry key="command.tps.info.player">Gets the lag on the server</entry>
-    <entry key="command.tps.info.console">Gets the lag on the server</entry>
-    <entry key="command.tps.syntax.player">[all|dimension id]</entry>
-    <entry key="command.tps.syntax.console">[all|dimension id]</entry>
+    <entry key="command.tps.info.player">Obtiene el retraso en el servidor</entry>
+    <entry key="command.tps.info.console">Obtiene el retraso en el servidor</entry>
+    <entry key="command.tps.syntax.player">[todo|id dimensión]</entry>
+    <entry key="command.tps.syntax.console">[todo|id dimensión]</entry>
 	
-    <entry key="command.tpspawn.syntax.console">[player]</entry>
-    <entry key="command.tpspawn.info.console">Teleport you/a player to your/their spawnpoint</entry>
-    <entry key="command.tpspawn.syntax.player">[player]</entry>
-    <entry key="command.tpspawn.info.player">Teleport a player to their spawnpoint</entry>
+    <entry key="command.tpspawn.syntax.console">[jugador]</entry>
+    <entry key="command.tpspawn.info.console">Teletransporta a ti/a un jugador a tu/su punto de generación.</entry>
+    <entry key="command.tpspawn.syntax.player">[jugador]</entry>
+    <entry key="command.tpspawn.info.player">Teletransporta un jugador su punto de generación</entry>
     
     <entry key="command.virtualchest.syntax.console"></entry>
     <entry key="command.virtualchest.syntax.player"></entry>
     <entry key="command.virtualchest.info.console"></entry>
-    <entry key="command.virtualchest.info.player">Open your virtual chest</entry>
+    <entry key="command.virtualchest.info.player">Abre tu cofre virtual</entry>
 
 	<entry key="command.warp.notfound">That warp doesn't exist!</entry>
     <entry key="command.warp.list">All the warps on the server:</entry>
@@ -438,34 +438,34 @@
 	<entry key="command.fedesel.syntax.console"></entry>
     <entry key="command.fedesel.syntax.player"></entry>
     <entry key="command.fedesel.info.console"></entry>
-    <entry key="command.fedesel.info.player">Clears the currently selected area.</entry>
+    <entry key="command.fedesel.info.player">Vacia el area seleccionada actualmente.</entry>
 	
 	<entry key="command.fedesel.syntax.console"></entry>
     <entry key="command.fedesel.syntax.player"></entry>
     <entry key="command.fedesel.info.console"></entry>
-    <entry key="command.fedesel.info.player">Clears the currently selected area.</entry>
+    <entry key="command.fedesel.info.player">Vacia el area seleccionada actualmente.</entry>
 	
-	<entry key="message.credits.AbrarSyed">Lead dev and permissions system</entry>
-    <entry key="message.credits.Bob_A_Red_Dino">Essentials-like commands</entry>
-    <entry key="message.credits.bspkrs">Helped with the coremod, no longer active</entry>
-    <entry key="message.credits.Dries007">Logger, random command stuff. Every spelling mistake ever</entry>
-    <entry key="message.credits.luacs1998">The IRC channel's Hitler</entry>
-    <entry key="message.credits.Malkierian">Latecoming bugsquasher.  The ADD coder (he's all over the place in here)</entry>
-    <entry key="message.credits.MysteriousAges">Backend, WorldControl commands, neurotic formatting</entry>
+	<entry key="message.credits.AbrarSyed">Desarrollador lider y sistema de permisos</entry>
+    <entry key="message.credits.Bob_A_Red_Dino">Comandos como Essentials</entry>
+    <entry key="message.credits.bspkrs">Ayudó con el coremod, ya no está activo</entry>
+    <entry key="message.credits.Dries007">Logger, comandos aleatorios. Todos los errores de ortografía.</entry>
+    <entry key="message.credits.luacs1998">El Hitler del canal IRC</entry>
+    <entry key="message.credits.Malkierian">Machaca bugs de última hora. El programador que AÑADE (está por todas partes aquí)</entry>
+    <entry key="message.credits.MysteriousAges">Backend, comandos WorldControl, formateo neurótico</entry>
 	<!-- End localization for Core -->
 	
 	<!-- Begin localization for ModuleEconomy -->
-    <entry key="message.wallet.walletaddself"> added to your wallet.</entry>
-    <entry key="message.wallet.walletaddtarget"> added to the wallet.</entry>
-    <entry key="message.wallet.walletgetself">Your wallet contains </entry>
-    <entry key="message.wallet.walletgettarget">'s wallet contains </entry>
+    <entry key="message.wallet.walletaddself"> añadido a tu cartera.</entry>
+    <entry key="message.wallet.walletaddtarget"> añadido a la cartera.</entry>
+    <entry key="message.wallet.walletgetself">Tu cartera contiene </entry>
+    <entry key="message.wallet.walletgettarget"> : su cartera contiene </entry>
     <entry key="message.wallet.walletremove">walletremove</entry>
-    <entry key="message.wallet.walletremoveself"> was removed from your wallet</entry>
-    <entry key="message.wallet.walletremovetarget"> was removed from the wallet.</entry>
-    <entry key="message.wallet.walletsetself">Your wallet was set to </entry>
-    <entry key="message.wallet.walletsettarget">Wallet set to </entry>
+    <entry key="message.wallet.walletremoveself"> fué eliminado de tu cartera.</entry>
+    <entry key="message.wallet.walletremovetarget"> fué eliminado de la cartera.</entry>
+    <entry key="message.wallet.walletsetself">Tu cartera fijada a </entry>
+    <entry key="message.wallet.walletsettarget">Tu cartera fijada a </entry>
     
-    <entry key="command.walletset.syntax.player">[&lt;jugador> &lt;amount to set>]</entry>
+    <entry key="command.walletset.syntax.player">[&lt;jugador> &lt;cantidad to set>]</entry>
     <entry key="command.walletset.info.player">Sets the target's wallet to the amount specified</entry>
     <entry key="command.walletset.syntax.console">[&lt;jugador> &lt;wallet amount>]</entry>
     <entry key="command.walletset.info.console">Sets the target's wallet to the amount specified</entry>
