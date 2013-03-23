@@ -6,14 +6,29 @@
     <!-- End localization for ModuleAfterlife -->
 
     <!-- Begin localization for ModuleAuth -->
-    <entry key="command.login.syntax.console">&lt;paswd></entry>
-    <entry key="command.login.syntax.player">&lt;paswd></entry>
-    <entry key="command.login.info.console">Iniciar sesión</entry>
-    <entry key="command.login.info.player">Iniciar sesión.</entry>
-    <entry key="command.login.already">No necesitas iniciar sesión.</entry>
-
-    <entry key="command.login.wrongpass">¡Contraseña incorrecta!</entry>
-    <entry key="command.login.register">No estas registrado. Utiliza /register &lt;pwd></entry>
+    <entry key="command.auth.syntax.console">&lt;help></entry>
+    <entry key="command.auth.syntax.player">&lt;help></entry>
+    <entry key="command.auth.info.console">Controla el modulo de autorización</entry>
+    <entry key="command.auth.info.player">Hace tareas de autorización</entry>
+  
+  <entry key="command.auth.usage">/auth &lt;help></entry>
+  <entry key="command.auth.usage.kick">/auth kick &lt;jugador></entry>
+  <entry key="command.auth.kick.user">%s ha sido echado por el servicio de autorización</entry>
+  <entry key="command.auth.kick.target">¡Has sido echado! Por favor inicia sesión otra vez.</entry>
+  
+  <entry key="command.auth.login.success">¡Sesión iniciada con éxito!</entry>
+  <entry key="command.auth.register.success">¡Registro correcto!</entry>
+  <entry key="command.auth.login.fail">Inicio de sesión fallido. Contraseña incorrecta.</entry>
+  
+  <entry key="command.auth.change.same">No puedes cambiarte la contraseña a ti mismo</entry>
+  <entry key="command.auth.change.success">Contraseña cambiada correctamente</entry>
+  <entry key="command.auth.change.wrongpass">Contraseña no cambiada. Contraseña incorrecta.</entry>
+  
+  <entry key="message.auth.error.notregisterred">¡%s no está registrado!</entry>
+  <entry key="message.auth.error.notregisterred">¡%s ya está registrado!</entry>
+  
+  <entry key="message.auth.needRegister">Necesitas registrate. Prueba /auth help</entry>
+  <entry key="message.auth.needRegister">Necesitas iniciar sesiónYou need to login. try /auth help</entry>
 
     <entry key="command.register.syntax.console">&lt;paswd></entry>
     <entry key="command.register.syntax.player">&lt;paswd></entry>
