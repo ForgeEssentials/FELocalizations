@@ -30,14 +30,6 @@
   <entry key="message.auth.needregister">Necesitas registrate. Prueba /auth help</entry>
   <entry key="message.auth.needlogin">Necesitas iniciar sesiónYou need to login. try /auth help</entry>
 
-    <entry key="command.register.syntax.console">&lt;paswd></entry>
-    <entry key="command.register.syntax.player">&lt;paswd></entry>
-    <entry key="command.register.info.console">Registrarse.</entry>
-    <entry key="command.register.info.player">Registrarse.</entry>
-    <entry key="command.register.already">No necesitas registrarte.</entry>
-
-    <entry key="command.register.register">Estás registrado. Utiliza /login &lt;pwd></entry>
-
     <entry key="message.auth.login">Por favor utiliza '%s' para iniciar sesión.</entry>
     <entry key="message.auth.register">Por favor utiliza '%s' para registrate.</entry>
     <entry key="message.auth.success">Sesión iniciada correctamente.</entry>
