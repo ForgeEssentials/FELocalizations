@@ -348,11 +348,11 @@
 	
 	<entry key="command.serversettings.list">Available options:</entry>
 	
-    <entry key="command.setspawn.syntax.console">[X Y Z]</entry>
-    <entry key="command.setspawn.syntax.player">[X Y Z]</entry>
-    <entry key="command.setspawn.info.console">Set the server spawn</entry>
-    <entry key="command.setspawn.info.player">Set the server spawn</entry>
-    <entry key="command.setspawn.set">Server spawn set.</entry>
+    <entry key="command.setspawn.syntax.console">&lt;zone> &lt;X Y Z]</entry>
+    <entry key="command.setspawn.syntax.player">&lt;zone|here> &lt;X Y Z| here]</entry>
+    <entry key="command.setspawn.info.console">Set the spawn point of a zone</entry>
+    <entry key="command.setspawn.info.player">Set the spawn point of a zone</entry>
+    <entry key="command.setspawn.set">Spawn if zone %s set to %d, %d, $d</entry>
     
     <entry key="command.smite.syntax.console">&lt;player></entry>
     <entry key="command.smite.syntax.player">[me|&lt;player>]</entry>
