@@ -25,10 +25,10 @@
   <entry key="command.auth.change.wrongpass">Contraseña no cambiada. Contraseña incorrecta.</entry>
   
   <entry key="message.auth.error.notregisterred">¡%s no está registrado!</entry>
-  <entry key="message.auth.error.notregisterred">¡%s ya está registrado!</entry>
+  <entry key="message.auth.error.yesregisterred">¡%s ya está registrado!</entry>
   
-  <entry key="message.auth.needRegister">Necesitas registrate. Prueba /auth help</entry>
-  <entry key="message.auth.needRegister">Necesitas iniciar sesiónYou need to login. try /auth help</entry>
+  <entry key="message.auth.needregister">Necesitas registrate. Prueba /auth help</entry>
+  <entry key="message.auth.needlogin">Necesitas iniciar sesiónYou need to login. try /auth help</entry>
 
     <entry key="command.register.syntax.console">&lt;paswd></entry>
     <entry key="command.register.syntax.player">&lt;paswd></entry>

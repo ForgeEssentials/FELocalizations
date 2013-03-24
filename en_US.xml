@@ -25,10 +25,10 @@
 	<entry key="command.auth.change.wrongpass">Password not changed. Wrong passowrd.</entry>
 	
 	<entry key="message.auth.error.notregisterred">%s is not registerred!</entry>
-	<entry key="message.auth.error.notregisterred">%s is already registerred!</entry>
+	<entry key="message.auth.error.yesregisterred">%s is already registerred!</entry>
 	
-	<entry key="message.auth.needRegister">You need to register. try /auth help</entry>
-	<entry key="message.auth.needRegister">You need to login. try /auth help</entry>
+	<entry key="message.auth.needregister">You need to register. try /auth help</entry>
+	<entry key="message.auth.needlegister">You need to login. try /auth help</entry>
 	
 	<entry key="command.register.syntax.console">&lt;paswd></entry>
     <entry key="command.register.syntax.player">&lt;paswd></entry>
