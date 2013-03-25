@@ -43,8 +43,8 @@
 	<!-- End localization for ModuleBackup -->
 	
 	<!-- Begin localization for ModuleChat -->
-	<entry key="command.automessage.syntax.console"></entry>
-    <entry key="command.automessage.syntax.player"></entry>
+	<entry key="command.automessage.syntax.console">&lt;select|broadcast|add|del></entry>
+    <entry key="command.automessage.syntax.player">&lt;select|broadcast|add|del></entry>
     <entry key="command.automessage.info.console">Select a message, broadcast a message, add or remove messages</entry>
     <entry key="command.automessage.info.player">Select a message, broadcast a message, add or remove messages</entry>
 	
@@ -124,9 +124,9 @@
     
 	<entry key="command.back.noback">You have nowhere to get back to.</entry>
 	
-    <entry key="command.bed.syntax.console"></entry>
-    <entry key="command.bed.syntax.player"></entry>
-    <entry key="command.bed.info.console"></entry>
+    <entry key="command.bed.syntax.console">&lt;player></entry>
+    <entry key="command.bed.syntax.player">[player]</entry>
+    <entry key="command.bed.info.console">Teleports someone to their bed</entry>
     <entry key="command.bed.info.player">Teleports you to your spawn point or bed.</entry>
     
 	<entry key="command.bed.done">You have been teleported to your spawn point.</entry>
