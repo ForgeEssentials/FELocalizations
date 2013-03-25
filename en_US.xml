@@ -354,7 +354,7 @@
     <entry key="command.setspawn.syntax.player">&lt;zone|here> &lt;X Y Z| here]</entry>
     <entry key="command.setspawn.info.console">Sets the spawn point of a zone.</entry>
     <entry key="command.setspawn.info.player">Sets the spawn point of a zone.</entry>
-    <entry key="command.setspawn.set">Spawn point of zone %s set to %d, %d, $d</entry>
+    <entry key="command.setspawn.set">Spawn point of zone %s set to %d, %d, %d</entry>
     
     <entry key="command.smite.syntax.console">&lt;player></entry>
     <entry key="command.smite.syntax.player">[me|&lt;player>]</entry>
