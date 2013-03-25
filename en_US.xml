@@ -20,9 +20,9 @@
 	<entry key="command.auth.register.success">Registration Succesful!</entry>
 	<entry key="command.auth.login.fail">Login failed. Wrong password.</entry>
 	
-	<entry key="command.auth.change.same">You cannot change a apassword to itself</entry>
+	<entry key="command.auth.change.same">You cannot change a password to itself</entry>
 	<entry key="command.auth.change.success">Password changed succesfully</entry>
-	<entry key="command.auth.change.wrongpass">Password not changed. Wrong passowrd.</entry>
+	<entry key="command.auth.change.wrongpass">Password not changed. Wrong password.</entry>
 	
 	<entry key="message.auth.error.notregisterred">%s is not registerred!</entry>
 	<entry key="message.auth.error.yesregisterred">%s is already registerred!</entry>
@@ -202,12 +202,12 @@
     <entry key="command.gamemode.info.player">Changes gamemode.</entry>
 	
 	<entry key="command.gamemode.changed">Gamemode changed of %s to %s</entry>
-	<entry key="command.gamemode.invalidParm">Invalid gametype or username: %s</entry>
+	<entry key="command.gamemode.invalidParm">Invalid gamemode type or username: %s</entry>
 	
 	<entry key="command.getcommandbook.syntax.console"></entry>
     <entry key="command.getcommandbook.syntax.player"></entry>
     <entry key="command.getcommandbook.info.console"></entry>
-    <entry key="command.getcommandbook.info.player">Gets a helpfull command book.</entry>
+    <entry key="command.getcommandbook.info.player">Gives a book with all the commands.</entry>
 	
 	<entry key="command.give.syntax.console">&lt;player> &lt;item[:meta]> [amount]</entry>
     <entry key="command.give.syntax.player">&lt;player> &lt;item[:meta]> [amount]</entry>
@@ -287,11 +287,11 @@
 	<entry key="command.personalwarp.info.console"></entry>
     <entry key="command.personalwarp.info.player">Teleport you to a personal warp.</entry>
 	
-	<entry key="command.personalwarp.notfound">That PW doesn't exist!</entry>
-    <entry key="command.personalwarp.list">Your PWs:</entry>
-	<entry key="command.personalwarp.made">PW added.</entry>
-	<entry key="command.personalwarp.remove">PW removed.</entry>
-    <entry key="command.personalwarp.alreadyexists">That warp already exists.</entry>
+	<entry key="command.personalwarp.notfound">That personal warp doesn't exist!</entry>
+    <entry key="command.personalwarp.list">Your personal warps:</entry>
+	<entry key="command.personalwarp.made">Personal warp added.</entry>
+	<entry key="command.personalwarp.remove">Personal warp removed.</entry>
+    <entry key="command.personalwarp.alreadyexists">That personal warp already exists.</entry>
 
 	<entry key="command.ping.syntax.console"></entry>
     <entry key="command.ping.syntax.player"></entry>
@@ -343,8 +343,8 @@
 	
 	<entry key="command.serversettings.syntax.console">[option] [value]</entry>
     <entry key="command.serversettings.syntax.player">[option] [value]</entry>
-    <entry key="command.serversettings.info.console">Change or vieuw the server settings (server.properties)</entry>
-	<entry key="command.serversettings.info.player">Change or vieuw the server settings (server.properties)</entry>
+    <entry key="command.serversettings.info.console">Change or view the server settings (server.properties)</entry>
+	<entry key="command.serversettings.info.player">Change or view the server settings (server.properties)</entry>
 	
 	<entry key="command.serversettings.list">Available options:</entry>
 	
@@ -364,11 +364,11 @@
     <entry key="command.smite.ground">I hope that didn't start a fire.</entry>
     
     <entry key="command.spawn.syntax.console">[player]</entry>
-    <entry key="command.spawn.info.console">Teleport you/a player to your/their spawnpoint</entry>
+    <entry key="command.spawn.info.console">Teleport you or a player to your or their spawnpoint</entry>
     <entry key="command.spawn.syntax.player">&#60;player> [dimension]</entry>
     <entry key="command.spawn.info.player">Teleport a player to their spawnpoint</entry>
 	
-    <entry key="command.spawn.done">Teleporting to spawn.</entry>
+    <entry key="command.spawn.done">Teleported to spawn.</entry>
 	
     <entry key="command.spawnmob.syntax.console">&lt;mob &lt;type> amount &lt;x> &lt;y> &lt;z> &lt;dimention></entry>
     <entry key="command.spawnmob.info.console">Spawn specified mob of amount at x,y,z or where you are looking</entry>
