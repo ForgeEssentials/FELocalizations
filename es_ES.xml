@@ -28,7 +28,7 @@
   <entry key="message.auth.error.yesregisterred">¡%s ya está registrado!</entry>
   
   <entry key="message.auth.needregister">Necesitas registrate. Prueba /auth help</entry>
-  <entry key="message.auth.needlogin">Necesitas iniciar sesiónYou need to login. try /auth help</entry>
+  <entry key="message.auth.needlogin">Necesitas iniciar sesión. Prueba /auth help</entry>
 
     <entry key="message.auth.login">Por favor utiliza '%s' para iniciar sesión.</entry>
     <entry key="message.auth.register">Por favor utiliza '%s' para registrate.</entry>
@@ -197,11 +197,11 @@
     <entry key="command.enderchest.info.player">Recarga las configuraciones de ForgeEssentials</entry>
 
     <entry key="command.gamemode.syntax.console">&lt;jugador> [modo de juego]</entry>
-    <entry key="command.gamemode.syntax.player">[jugador|modo de juego] [modo de juego|jugador]</entry>
+    <entry key="command.gamemode.syntax.player">[jugador|modo de juego] [modo de juego]</entry>
     <entry key="command.gamemode.info.console">Cambia el modo de juego de 'jugador'.</entry>
     <entry key="command.gamemode.info.player">Cambia el modo de juego.</entry>
 
-    <entry key="command.gamemode.changed">Modo de juego cambiado de %s$1 a %s$2</entry>
+    <entry key="command.gamemode.changed">Modo de juego cambiado de %s a %s</entry>
     <entry key="command.gamemode.invalidParm">Tipo de juego o usuario inválido: %s</entry>
 
     <entry key="command.getcommandbook.syntax.console"></entry>
@@ -348,11 +348,11 @@
 
     <entry key="command.serversettings.list">Opciones disponibles:</entry>
 
-    <entry key="command.setspawn.syntax.console">[X Y Z]</entry>
-    <entry key="command.setspawn.syntax.player">[X Y Z]</entry>
-    <entry key="command.setspawn.info.console">Fija el punto de inicio del servidor.</entry>
-    <entry key="command.setspawn.info.player">Fija el punto de inicio del servidor</entry>
-    <entry key="command.setspawn.set">Punto de inicio del servidor fijado.</entry>
+    <entry key="command.setspawn.syntax.console">&lt;zona> &lt;X Y Z]</entry>
+    <entry key="command.setspawn.syntax.player">&lt;zona|aqui> &lt;X Y Z| aqui]</entry>
+    <entry key="command.setspawn.info.console">Fija el punto de inicio de una zona</entry>
+    <entry key="command.setspawn.info.player">Fija el punto de inicio de una zona</entry>
+    <entry key="command.setspawn.set">Punto de inicio si la zona %s establecida en %d, %d, %d.</entry>
 
     <entry key="command.smite.syntax.console">&lt;jugador></entry>
     <entry key="command.smite.syntax.player">[me|&lt;jugador>]</entry>
