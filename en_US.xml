@@ -26,6 +26,7 @@
 	
 	<entry key="message.auth.error.notregisterred">%s is not registered!</entry>
 	<entry key="message.auth.error.yesregisterred">%s is already registered!</entry>
+	<entry key="message.auth.error.disabledreg">Registrations have been disabled</entry>
 	
 	<entry key="message.auth.needregister">You need to register. try /auth help</entry>
 	<entry key="message.auth.needlogin">You need to login. try /auth help</entry>
