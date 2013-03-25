@@ -241,7 +241,7 @@
 	<entry key="command.jump.syntax.console"></entry>
     <entry key="command.jump.syntax.player"></entry>
     <entry key="command.jump.info.console"></entry>
-    <entry key="command.jump.info.player"></entry>
+    <entry key="command.jump.info.player">Jumps you to the point you are looking at</entry>
 	
     <entry key="command.kill.syntax.console">&lt;player></entry>
     <entry key="command.kill.syntax.player">[player]</entry>
