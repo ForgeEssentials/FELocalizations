@@ -472,25 +472,25 @@
     <entry key="message.wallet.walletsetself">Your wallet was set to </entry>
     <entry key="message.wallet.walletsettarget">Wallet set to </entry>
     
-    <entry key="command.walletset.syntax.player">[&lt;player> &lt;amount to set>]</entry>
-    <entry key="command.walletset.info.player">Sets the target's wallet to the amount specified</entry>
-    <entry key="command.walletset.syntax.console">[&lt;player> &lt;wallet amount>]</entry>
-    <entry key="command.walletset.info.console">Sets the target's wallet to the amount specified</entry>
+    <entry key="command.setwallet.syntax.player">[&lt;player> &lt;amount to set>]</entry>
+    <entry key="command.setwallet.info.player">Sets the target's wallet to the amount specified</entry>
+    <entry key="command.setwallet.syntax.console">[&lt;player> &lt;wallet amount>]</entry>
+    <entry key="command.setwallet.info.console">Sets the target's wallet to the amount specified</entry>
     
-    <entry key="command.walletadd.syntax.player">[&lt;player> &lt;amount to add>]</entry>
-    <entry key="command.walletadd.info.player">Adds the specified amount to the target's wallet</entry>
-    <entry key="command.walletadd.syntax.console">[&lt;player> &lt;amount to add>]</entry>
-    <entry key="command.walletadd.info.console">Adds the specified amount to the target's wallet</entry>
+    <entry key="command.addtowallet.syntax.player">[&lt;player> &lt;amount to add>]</entry>
+    <entry key="command.addtowallet.info.player">Adds the specified amount to the target's wallet</entry>
+    <entry key="command.addtowallet.syntax.console">[&lt;player> &lt;amount to add>]</entry>
+    <entry key="command.addtowallet.info.console">Adds the specified amount to the target's wallet</entry>
     
-    <entry key="command.walletremove.syntax.player">[&lt;player> &lt;amount to remove>]</entry>
-    <entry key="command.walletremove.info.player">Removes the specified amount from the target's wallet</entry>
-    <entry key="command.walletremove.syntax.console">[&lt;player> &lt;amount to remove>]</entry>
-    <entry key="command.walletremove.info.console">Removes the specified amount from the target's wallet</entry>
+    <entry key="command.removewallet.syntax.player">[&lt;player> &lt;amount to remove>]</entry>
+    <entry key="command.removewallet.info.player">Removes the specified amount from the target's wallet</entry>
+    <entry key="command.removewallet.syntax.console">[&lt;player> &lt;amount to remove>]</entry>
+    <entry key="command.removewallet.info.console">Removes the specified amount from the target's wallet</entry>
     
-    <entry key="command.walletget.syntax.player">[&lt;player>]</entry>
-    <entry key="command.walletget.info.player">Returns the target's wallet</entry>
-    <entry key="command.walletget.syntax.console">[&lt;player>]</entry>
-    <entry key="command.walletget.info.console">Returns the target's wallet</entry>
+    <entry key="command.getwallet.syntax.player">[&lt;player>]</entry>
+    <entry key="command.getwallet.info.player">Returns the target's wallet</entry>
+    <entry key="command.getwallet.syntax.console">[&lt;player>]</entry>
+    <entry key="command.getwallet.info.console">Returns the target's wallet</entry>
     
     <entry key="command.pay.syntax.player">&lt;player> &lt;amount></entry>
     <entry key="command.pay.info.player">Play the player the specified amount. You must have enough money</entry>
