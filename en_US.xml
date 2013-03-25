@@ -215,7 +215,7 @@
     <entry key="command.give.info.console">Spawns in items for 'player'.</entry>
     <entry key="command.give.info.player">Spawns in items for 'player'. Use /i to spawn in items for yourself.</entry>
 	
-	<entry key="command.give.given">Giving %s$1 %d of %s$2</entry>
+	<entry key="command.give.given">Giving %s %d of %s</entry>
 	
     <entry key="command.heal.info.player">Restores the target's health and hunger; may also extinguish them.</entry>
     <entry key="command.heal.info.console">Restores the target's health and hunger; may also extinguish them.</entry>
