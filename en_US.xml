@@ -28,7 +28,7 @@
 	<entry key="message.auth.error.yesregisterred">%s is already registerred!</entry>
 	
 	<entry key="message.auth.needregister">You need to register. try /auth help</entry>
-	<entry key="message.auth.needlegister">You need to login. try /auth help</entry>
+	<entry key="message.auth.needlogin">You need to login. try /auth help</entry>
 	
 	<entry key="message.auth.login">Please use '%s' to login.</entry>
 	<entry key="message.auth.register">Please use '%s' to register.</entry>
