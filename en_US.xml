@@ -24,6 +24,8 @@
 	<entry key="command.auth.change.success">Password changed succesfully</entry>
 	<entry key="command.auth.change.wrongpass">Password not changed. Wrong password.</entry>
 	
+	<entry key="command.auth.setPass">Password of %s has been set</entry>
+	
 	<entry key="message.auth.error.notregisterred">%s is not registered!</entry>
 	<entry key="message.auth.error.yesregisterred">%s is already registered!</entry>
 	<entry key="message.auth.error.disabledreg">Registrations have been disabled</entry>
