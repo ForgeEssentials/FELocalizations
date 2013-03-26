@@ -27,13 +27,15 @@
 	<entry key="message.auth.error.notregisterred">%s is not registered!</entry>
 	<entry key="message.auth.error.yesregisterred">%s is already registered!</entry>
 	<entry key="message.auth.error.disabledreg">Registrations have been disabled</entry>
-	
+		
 	<entry key="message.auth.needregister">You need to register. try /auth help</entry>
 	<entry key="message.auth.needlogin">You need to login. try /auth help</entry>
 	
 	<entry key="message.auth.login">Please use '%s' to login.</entry>
 	<entry key="message.auth.register">Please use '%s' to register.</entry>
 	<entry key="message.auth.success">Successfully logged in.</entry>
+	<entry key="message.auth.unregister">Successfully removed %s's registration.</entry>
+	
 	<!-- End localization for ModuleAuth -->
 	
 	<!-- Begin localization for ModuleBackup -->
