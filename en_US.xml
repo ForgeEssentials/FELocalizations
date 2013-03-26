@@ -205,7 +205,7 @@
     <entry key="command.gamemode.info.console">Changes the gamemode of the specified player.</entry>
     <entry key="command.gamemode.info.player">Changes a player's gamemode.</entry>
 	
-	<entry key="command.gamemode.changed">Gamemode changed of 1$s to %2$s</entry>
+	<entry key="command.gamemode.changed">Gamemode changed of %1$s to %2$s</entry>
 	<entry key="command.gamemode.invalidParm">Invalid gamemode type or username: %s</entry>
 	
 	<entry key="command.getcommandbook.syntax.console"></entry>
