@@ -412,15 +412,8 @@
 	<entry key="command.tpahere.gotTimeout">TPAhere from %s timed out.</entry>
 	<entry key="command.tpahere.sendTimeout">TPAhere to %s timed out.</entry>
 	
-	<entry key="command.tphere.info.player">Teleports a player to you.</entry>
-    <entry key="command.tphere.info.console"></entry>
-    <entry key="command.tphere.syntax.player"></entry>
-    <entry key="command.tphere.syntax.console">&lt;player></entry>
-	
-	<entry key="command.tphere.info.player">Teleports you to x y z.</entry>
-    <entry key="command.tphere.info.console"></entry>
-    <entry key="command.tphere.syntax.player"></entry>
-    <entry key="command.tphere.syntax.console">&lt;x> &lt;y> &lt;z></entry>
+	<entry key="command.tphere.info.player">Requests a player to teleport to you.</entry>
+    <entry key="command.tphere.syntax.player">&lt;player|accept|deny></entry>
 	
     <entry key="command.tps.info.player">Gets a server lag estimate.</entry>
     <entry key="command.tps.info.console">Gets a server lag estimate.</entry>
@@ -473,10 +466,14 @@
     <entry key="command.ticket.info.console">the command for ticket stuff</entry>
 	
 	<entry key="command.ticket.view.usage">Usage: /ticket view &lt;id></entry>
+	<entry key="command.ticket.new.usage">Usage: /ticket new &lt;category> &lt;message ...></entry>
+	<entry key="command.ticket.tp.usage">Usage: /ticket tp &lt;id></entry>
+	<entry key="command.ticket.del.usage">Usage: /ticket del &lt;id></entry>
 	
 	
 	<entry key="message.error.illegalCategory">"%s" is not a valid category</entry>
-	<entry key="message.confim.ticktPost">Your ticket has been posted. ID: %d</entry>
+	<entry key="message.confim.ticketPost">Your ticket has been posted. ID: %d</entry>
+	<entry key="message.confim.ticketDel">Ticket #%d has been removed</entry>
 	<entry key="message.other.ticketList.header">--- Ticket List ---</entry>
 	<entry key="message.other.ticketList.pages">--- Page %1$d of %2$d ---"</entry>
 	<!-- End localization for ModuleTicket -->
