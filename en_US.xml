@@ -195,7 +195,7 @@
 	
     <entry key="command.enderchest.syntax.console"></entry>
     <entry key="command.enderchest.syntax.player"></entry>
-    <entry key="command.enderchest.info.console">Opens up a player's enderchest. Not useable by the console.</entry>
+    <entry key="command.enderchest.info.console"></entry>
     <entry key="command.enderchest.info.player">Opens up your enderchest</entry>
     
 	<entry key="command.gamemode.syntax.console">&lt;player> [gamemode]</entry>
@@ -390,6 +390,11 @@
     <entry key="command.tp.info.console">Teleports a player to a player or x y z</entry>
     <entry key="command.tp.syntax.player">[player] &lt;player|&lt;x> &lt;y> &lt;z>></entry>
     <entry key="command.tp.syntax.console">&lt;player> &lt;player|&lt;x> &lt;y> &lt;z>></entry>
+		
+	<entry key="command.tppos.info.player">Teleports you to  x y z</entry>
+    <entry key="command.tppos.info.console"></entry>
+    <entry key="command.tppos.syntax.player">&lt;x> &lt;y> &lt;z></entry>
+    <entry key="command.tppos.syntax.console"></entry>
     
 	<entry key="command.tpa.info.player">Teleports you or a player to a player or x y z.</entry>
     <entry key="command.tpa.info.console">Teleports a player to a player or x y z.</entry>
@@ -596,6 +601,8 @@
 	<entry key="command.permissions.user.info.groups">--- Groups %s is in....</entry>
 	<entry key="command.permissions.user.info.supers">--- SUPER permissions for %s...</entry>
 	
+	<entry key="command.autopromote.syntax.player">&lt;zone> [get|enable|disable|edit|add|message] [other options]</entry>
+    <entry key="command.autopromote.info.player">Controls the AutoPromote</entry>
     
     <!-- Some localization for Zones -->
     <entry key="command.permissions.zone.list.header">--- Showing the zonelist page %1$d of %2$d ---</entry>
