@@ -35,7 +35,6 @@
 	<entry key="message.auth.register">Please use '%s' to register.</entry>
 	<entry key="message.auth.success">Successfully logged in.</entry>
 	<entry key="message.auth.unregister">Successfully removed %s's registration.</entry>
-	
 	<!-- End localization for ModuleAuth -->
 	
 	<!-- Begin localization for ModuleBackup -->
@@ -204,7 +203,7 @@
     <entry key="command.gamemode.info.console">Changes the gamemode of the specified player.</entry>
     <entry key="command.gamemode.info.player">Changes a player's gamemode.</entry>
 	
-	<entry key="command.gamemode.changed">Gamemode changed of %s to %s</entry>
+	<entry key="command.gamemode.changed">Gamemode changed of 1$s to %2$s</entry>
 	<entry key="command.gamemode.invalidParm">Invalid gamemode type or username: %s</entry>
 	
 	<entry key="command.getcommandbook.syntax.console"></entry>
@@ -217,7 +216,7 @@
     <entry key="command.give.info.console">Spawns in items for 'player'.</entry>
     <entry key="command.give.info.player">Spawns in items for 'player'. Use /i to spawn in items for yourself.</entry>
 	
-	<entry key="command.give.given">Giving %s %d of %s</entry>
+	<entry key="command.give.given">Giving %1$s %2$d of %3$s</entry>
 	
     <entry key="command.heal.info.player">Restores the target's health and hunger; may also extinguish them.</entry>
     <entry key="command.heal.info.console">Restores the target's health and hunger; may also extinguish them.</entry>
@@ -279,7 +278,7 @@
     <entry key="command.modlist.info.console">Displays a list of mods used by the server.</entry>
     <entry key="command.modlist.info.player">Displays a list of mods used by the server.</entry>
 	
-	<entry key="command.modlist.header">--- Showing modlist page %p of %t ---</entry>
+	<entry key="command.modlist.header">--- Showing modlist page %1$d of %2$d ---</entry>
 	
     <entry key="command.motd.syntax.console">[reload]</entry>
     <entry key="command.motd.syntax.player">[reload]</entry>
@@ -333,7 +332,7 @@
 	<entry key="command.rules.added">Rule added as # %s.</entry>
 	<entry key="command.rules.moved">Rule # %1$s moved to # %2$s.</entry>
 	<entry key="command.rules.movedToLast">Rule # %1$s moved to last position.</entry>
-	<entry key="command.rules.changed">Rules # %s changed to '%s'.</entry>
+	<entry key="command.rules.changed">Rules # %1$s changed to '%2$s'.</entry>
 	
 	<entry key="command.invsee.syntax.console"></entry>
     <entry key="command.invsee.syntax.player">&lt;player></entry>
@@ -356,7 +355,7 @@
     <entry key="command.setspawn.syntax.player">&lt;zone|here> &lt;X Y Z| here]</entry>
     <entry key="command.setspawn.info.console">Sets the spawn point of a zone.</entry>
     <entry key="command.setspawn.info.player">Sets the spawn point of a zone.</entry>
-    <entry key="command.setspawn.set">Spawn point of zone %s set to %d, %d, %d</entry>
+    <entry key="command.setspawn.set">Spawn point of zone %1$s set to %2$d, %3$d, %4$d</entry>
     
     <entry key="command.smite.syntax.console">&lt;player></entry>
     <entry key="command.smite.syntax.player">[me|&lt;player>]</entry>
@@ -459,6 +458,28 @@
     <entry key="message.credits.Malkierian">Latecoming bugsquasher.  The ADD coder (he's all over the place in here)</entry>
     <entry key="message.credits.MysteriousAges">Backend, WorldControl commands, neurotic formatting</entry>
 	<!-- End localization for Core -->
+	
+	<!-- Begin localization for ModuleSnooper -->
+	<entry key="command.queryreload.syntax.player"></entry>
+    <entry key="command.queryreload.info.player">Restarts the snooper thread</entry>
+    <entry key="command.queryreload.syntax.console"></entry>
+    <entry key="command.queryreload.info.console">Restarts the snooper thread</entry>
+	<!-- End localization for ModuleSnooper -->
+	
+	<!-- Begin localization for ModuleTicket -->
+	<entry key="command.ticket.syntax.player"></entry>
+    <entry key="command.ticket.info.player"> The command for ticket stuff</entry>
+    <entry key="command.ticket.syntax.console"></entry>
+    <entry key="command.ticket.info.console">the command for ticket stuff</entry>
+	
+	<entry key="command.ticket.view.usage">Usage: /ticket view &lt;id></entry>
+	
+	
+	<entry key="message.error.illegalCategory">"%s" is not a valid category</entry>
+	<entry key="message.confim.ticktPost">Your ticket has been posted. ID: %d</entry>
+	<entry key="message.other.ticketList.header">--- Ticket List ---</entry>
+	<entry key="message.other.ticketList.pages">--- Page %1$d of %2$d ---"</entry>
+	<!-- End localization for ModuleTicket -->
 	
 	<!-- Begin localization for ModuleEconomy -->
     <entry key="message.wallet.walletaddself"> added to your wallet.</entry>
