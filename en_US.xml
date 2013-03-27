@@ -450,13 +450,13 @@
     <entry key="command.fedesel.info.console"></entry>
     <entry key="command.fedesel.info.player">Clears the currently selected area.</entry>
 	
-	<entry key="message.credits.AbrarSyed">Lead dev and permissions system</entry>
-    <entry key="message.credits.Bob_A_Red_Dino">Essentials-like commands</entry>
-    <entry key="message.credits.bspkrs">Helped with the coremod, no longer active</entry>
-    <entry key="message.credits.Dries007">Logger, random command stuff. Every spelling mistake ever</entry>
-    <entry key="message.credits.luacs1998">The IRC channel's Hitler</entry>
-    <entry key="message.credits.Malkierian">Latecoming bugsquasher.  The ADD coder (he's all over the place in here)</entry>
-    <entry key="message.credits.MysteriousAges">Backend, WorldControl commands, neurotic formatting</entry>
+	<entry key="message.credits.AbrarSyed">Lead developer. Also responsible for the permission system</entry>
+    <entry key="message.credits.Bob_A_Red_Dino">No longer active, he began the development of many of the essential commands.</entry>
+    <entry key="message.credits.bspkrs">No longer active, he assisted with the development of mod's core.</entry>
+    <entry key="message.credits.Dries007">Primary logger. Head of random command development. Unsucessfully attepted to fix every spelling mistake.</entry>
+    <entry key="message.credits.luacs1998">IRC dictator. Lead public relations officer. Also a coder.</entry>
+    <entry key="message.credits.Malkierian">Foremost bug exterminator. Likely forgets to take his ritalin every morning.</entry>
+    <entry key="message.credits.MysteriousAges">Backend manager. Responsible for WorldControl commands and neurotic formatting.</entry>
 	<!-- End localization for Core -->
 	
 	<!-- Begin localization for ModuleSnooper -->
