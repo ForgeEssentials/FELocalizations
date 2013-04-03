@@ -134,6 +134,8 @@
     <entry key="command.bed.info.player">Teleports you to your spawn point or bed.</entry>
     
 	<entry key="command.bed.done">You have been teleported to your spawn point.</entry>
+	<entry key="command.bed.noExist">You do no not have a bed set.</entry>
+	<entry key="command.bed.obstructed">Your bed is obstructed.</entry>
 	
     <entry key="command.burn.syntax.console">&lt;player></entry>
     <entry key="command.burn.syntax.player">[me|&lt;player>]</entry>
