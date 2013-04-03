@@ -11,28 +11,32 @@
     <entry key="command.auth.info.console">Controla el modulo de autorización</entry>
     <entry key="command.auth.info.player">Hace tareas de autorización</entry>
   
-  <entry key="command.auth.usage">/auth &lt;help></entry>
-  <entry key="command.auth.usage.kick">/auth kick &lt;jugador></entry>
-  <entry key="command.auth.kick.user">%s ha sido echado por el servicio de autorización</entry>
-  <entry key="command.auth.kick.target">¡Has sido echado! Por favor inicia sesión otra vez.</entry>
+    <entry key="command.auth.usage">/auth &lt;help></entry>
+    <entry key="command.auth.usage.kick">/auth kick &lt;jugador></entry>
+    <entry key="command.auth.kick.user">%s ha sido echado por el servicio de autorización</entry>
+    <entry key="command.auth.kick.target">¡Has sido echado! Por favor inicia sesión otra vez.</entry>
   
-  <entry key="command.auth.login.success">¡Sesión iniciada con éxito!</entry>
-  <entry key="command.auth.register.success">¡Registro correcto!</entry>
-  <entry key="command.auth.login.fail">Inicio de sesión fallido. Contraseña incorrecta.</entry>
+    <entry key="command.auth.login.success">¡Sesión iniciada con éxito!</entry>
+    <entry key="command.auth.register.success">¡Registro correcto!</entry>
+    <entry key="command.auth.login.fail">Inicio de sesión fallido. Contraseña incorrecta.</entry>
   
-  <entry key="command.auth.change.same">No puedes cambiarte la contraseña a ti mismo</entry>
-  <entry key="command.auth.change.success">Contraseña cambiada correctamente</entry>
-  <entry key="command.auth.change.wrongpass">Contraseña no cambiada. Contraseña incorrecta.</entry>
+    <entry key="command.auth.change.same">No puedes cambiarte la contraseña a ti mismo</entry>
+    <entry key="command.auth.change.success">Contraseña cambiada correctamente</entry>
+    <entry key="command.auth.change.wrongpass">Contraseña no cambiada. Contraseña incorrecta.</entry>
   
-  <entry key="message.auth.error.notregisterred">¡%s no está registrado!</entry>
-  <entry key="message.auth.error.yesregisterred">¡%s ya está registrado!</entry>
-  
-  <entry key="message.auth.needregister">Necesitas registrate. Prueba /auth help</entry>
-  <entry key="message.auth.needlogin">Necesitas iniciar sesión. Prueba /auth help</entry>
+    <entry key="command.auth.setPass">La contraseña de %s ha sido establecida</entry>
+   
+    <entry key="message.auth.error.notregisterred">¡%s no está registrado!</entry>
+    <entry key="message.auth.error.yesregisterred">¡%s ya está registrado!</entry> 
+    <entry key="message.auth.error.disabledreg">El resgistro ha sido deshabilitado</entry>
+    
+    <entry key="message.auth.needregister">Necesitas registrate. Prueba /auth help</entry>
+    <entry key="message.auth.needlogin">Necesitas iniciar sesión. Prueba /auth help</entry>
 
     <entry key="message.auth.login">Por favor utiliza '%s' para iniciar sesión.</entry>
     <entry key="message.auth.register">Por favor utiliza '%s' para registrate.</entry>
     <entry key="message.auth.success">Sesión iniciada correctamente.</entry>
+    <entry key="message.auth.unregister">Registro de %s eliminado con exito.</entry>
     <!-- End localization for ModuleAuth -->
 
     <!-- Begin localization for ModuleBackup -->
@@ -43,8 +47,8 @@
     <!-- End localization for ModuleBackup -->
 
     <!-- Begin localization for ModuleChat -->
-    <entry key="command.automessage.syntax.console"></entry>
-    <entry key="command.automessage.syntax.player"></entry>
+    <entry key="command.automessage.syntax.console">&lt;select|broadcast|add|del></entry>
+    <entry key="command.automessage.syntax.player">&lt;select|broadcast|add|del></entry>
     <entry key="command.automessage.info.console">Selecciona, transmite, añade o elimina mensajes.</entry>
     <entry key="command.automessage.info.player">Selecciona, transmite, añade o elimina mensajes.</entry>
 
@@ -54,7 +58,7 @@
     <entry key="command.mail.info.player">Envía un mensaje a alguien. Puede ser leido después.</entry>
 
     <entry key="command.mail.posted">Enviado mensaje a %s.</entry>
-    <entry key="command.mail.unknown">%s nunca ha estado en este servidor.</entry>
+    <entry key="command.mail.unknown">Ningún jugador con el nombre: %s. Intentalo de nuevo, por favor.</entry>
 
     <entry key="command.msg.syntax.console">&lt;jugador> &lt;mensaje></entry>
     <entry key="command.msg.syntax.player">&lt;jugador> &lt;mensaje></entry>
@@ -63,8 +67,8 @@
 
     <entry key="command.mute.syntax.console">&lt;jugador></entry>
     <entry key="command.mute.syntax.player">&lt;jugador> </entry>
-    <entry key="command.mute.info.console">Silencia a alguien.</entry>
-    <entry key="command.mute.info.player">Silencia a alguien.</entry>
+    <entry key="command.mute.info.console">Silencia al jugador especificado.</entry>
+    <entry key="command.mute.info.player">Silencia al jugador especificado.</entry>
 
     <entry key="command.mute.youMuted">Has silenciado a %s.</entry>
     <entry key="command.mute.muted">Has sido silenciado por %s.</entry>
@@ -115,7 +119,7 @@
 
     <entry key="command.afk.warmup">Permanece quieto durante %d segundos.</entry>
     <entry key="command.afk.in">Estás AFK.</entry>
-    <entry key="command.afk.out">AFK levantado.</entry>
+    <entry key="command.afk.out">AFK retirado.</entry>
 
     <entry key="command.back.syntax.console">/back</entry>
     <entry key="command.back.syntax.player">/back</entry>
@@ -124,9 +128,9 @@
 
     <entry key="command.back.noback">No tienes a donde volver.</entry>
 
-    <entry key="command.bed.syntax.console"></entry>
-    <entry key="command.bed.syntax.player"></entry>
-    <entry key="command.bed.info.console"></entry>
+    <entry key="command.bed.syntax.console">&lt;jugador></entry>
+    <entry key="command.bed.syntax.player">[jugador]</entry>
+    <entry key="command.bed.info.console">Teletransporta a alguien a su cama</entry>
     <entry key="command.bed.info.player">Te teletransporta a tu cama o punto de inicio.</entry>
 
     <entry key="command.bed.done">Has sido teletransportado a tu punto de inicio.</entry>
@@ -157,10 +161,10 @@
 
     <entry key="command.clear.syntax.console">&lt;jugador> [id] [meta]</entry>
     <entry key="command.clear.syntax.player">[jugador] [id] [meta]</entry>
-    <entry key="command.clear.info.console">Vacia el inventario de 'jugador'.</entry>
-    <entry key="command.clear.info.player">Vacia tu inventario.</entry>
+    <entry key="command.clear.info.console">Vacia el inventario de un jugador.</entry>
+    <entry key="command.clear.info.player">Vacia tu inventario o el de otro jugador.</entry>
 
-    <entry key="command.clear.doneSelf">Inventario vacio.</entry>
+    <entry key="command.clear.doneSelf">Inventario vaciado.</entry>
     <entry key="command.clear.doneBy">Inventario vaciado por %s.</entry>
     <entry key="command.clear.doneOf">Inventario de %s vaciado.</entry>
 
@@ -185,7 +189,7 @@
     <entry key="command.doas.success">Comando ejecutado como %s con éxito.</entry>
 
     <entry key="command.enchant.syntax.console"></entry>
-    <entry key="command.enchant.syntax.player">[nombre ench] [nivel]</entry>
+    <entry key="command.enchant.syntax.player">[nombre encant] [nivel]</entry>
     <entry key="command.enchant.info.console"></entry>
     <entry key="command.enchant.info.player">Encanta el objeto que estás sosteniendo.</entry>
 
@@ -193,31 +197,31 @@
 
     <entry key="command.enderchest.syntax.console"></entry>
     <entry key="command.enderchest.syntax.player"></entry>
-    <entry key="command.enderchest.info.console">Recarga las configuraciones de ForgeEssentials</entry>
-    <entry key="command.enderchest.info.player">Recarga las configuraciones de ForgeEssentials</entry>
+    <entry key="command.enderchest.info.console"></entry>
+    <entry key="command.enderchest.info.player">Abre tu cofre del fin.</entry>
 
     <entry key="command.gamemode.syntax.console">&lt;jugador> [modo de juego]</entry>
-    <entry key="command.gamemode.syntax.player">[jugador|modo de juego] [modo de juego]</entry>
-    <entry key="command.gamemode.info.console">Cambia el modo de juego de 'jugador'.</entry>
-    <entry key="command.gamemode.info.player">Cambia el modo de juego.</entry>
+    <entry key="command.gamemode.syntax.player">[jugador|modo de juego] [modo de juego|jugador]</entry>
+    <entry key="command.gamemode.info.console">Cambia el modo de juego del jugador especificado.</entry>
+    <entry key="command.gamemode.info.player">Cambia el modo de juego de un jugador.</entry>
 
-    <entry key="command.gamemode.changed">Modo de juego cambiado de %s a %s</entry>
+    <entry key="command.gamemode.changed">Modo de juego cambiado de %1$s a %2$s</entry>
     <entry key="command.gamemode.invalidParm">Tipo de juego o usuario inválido: %s</entry>
 
     <entry key="command.getcommandbook.syntax.console"></entry>
     <entry key="command.getcommandbook.syntax.player"></entry>
     <entry key="command.getcommandbook.info.console"></entry>
-    <entry key="command.getcommandbook.info.player">Consigue un útil libro de comandos.</entry>
+    <entry key="command.getcommandbook.info.player">Te da un libro con todos los comandos.</entry>
 
     <entry key="command.give.syntax.console">&lt;jugador> &lt;objeto[:meta]> [cantidad]</entry>
     <entry key="command.give.syntax.player">&lt;jugador> &lt;objeto[:meta]> [cantidad]</entry>
     <entry key="command.give.info.console">Crea objetos para 'jugador'.</entry>
     <entry key="command.give.info.player">Crea objetos para 'jugador'. Utiliza /i para crear objetos para ti mismo.</entry>
 
-    <entry key="command.give.given">Dando %s$1 %d de %s$2</entry>
+    <entry key="command.give.given">Dando %$1s %2$d de %3$s</entry>
 
-    <entry key="command.heal.info.player">Restaura el hambre y la salud del objetivo y lo extingue</entry>
-    <entry key="command.heal.info.console">Restaura el hambre y la salud del objetivo y lo extingue</entry>
+    <entry key="command.heal.info.player">Restaura el hambre y la salud del objetivo; puede también apagarlos.</entry>
+    <entry key="command.heal.info.console">Restaura el hambre y la salud del objetivo; puede también apagarlos.</entry>
     <entry key="command.heal.syntax.player">[jugador]</entry>
     <entry key="command.heal.syntax.console">&lt;jugador></entry>
 
@@ -229,7 +233,7 @@
     <entry key="command.home.info.player">Te teletransporta a/establece tu casa</entry>
 
     <entry key="command.home.confirm">Casa establecida en: %1$d, %2$d, %3$d</entry>
-    <entry key="command.home.nohome">Casa no establecida. Prueba esto: </entry>
+    <entry key="command.home.nohome">Casa no establecida. Prueba esto: /home here </entry>
 
     <entry key="command.i.syntax.console"></entry>
     <entry key="command.i.syntax.player">&lt;objeto[:meta]> [cantidad]</entry>
@@ -241,7 +245,8 @@
     <entry key="command.jump.syntax.console"></entry>
     <entry key="command.jump.syntax.player"></entry>
     <entry key="command.jump.info.console"></entry>
-    <entry key="command.jump.info.player"></entry>
+    <entry key="command.jump.info.player">Saltas al punto que estas mirando</entry>
+    <entry key="command.jump.toofar">Lo siento tio, ¡no puedes saltar taaan lejos!</entry>
 
     <entry key="command.kill.syntax.console">&lt;jugador></entry>
     <entry key="command.kill.syntax.player">[jugador]</entry>
@@ -253,22 +258,22 @@
     <entry key="command.kit.syntax.console"></entry>
     <entry key="command.kit.syntax.player">[nombre] O [nombre] [set|del] &lt;cooldown></entry>
     <entry key="command.kit.info.console"></entry>
-    <entry key="command.kit.info.player">Obtiene kits gratuitos predefinedos por el propietario del servidor</entry>
+    <entry key="command.kit.info.player">Te perfite recibir kits gratuitos predefinidos por el propietario del servidor</entry>
 
-    <entry key="command.kit.alreadyExists">Este paquete de cuidados ya existe.</entry>
-    <entry key="command.kit.done">Paquete de cuidados soltado.</entry>
-    <entry key="command.kit.list">Esta es una lista de los paquetes de cuidados:</entry>
-    <entry key="command.kit.made">Paquete de cuidados hecho. %c seg refresco.</entry>
-    <entry key="command.kit.noExists">Esta es una lista de los paquetes de cuidados:</entry>
-    <entry key="command.kit.removed">Paquete de cuidados eliminado.</entry>
-    <entry key="command.kit.stillInCooldown">Refresco del paquete de cuidados activo, ¡faltan %c segundos!</entry>
+    <entry key="command.kit.alreadyExists">Este kit de ya existe.</entry>
+    <entry key="command.kit.done">Kit soltado.</entry>
+    <entry key="command.kit.list">Esta es una lista de todos los kits disponibles:</entry>
+    <entry key="command.kit.made">Kit creado correctamente. %c seg de refresco.</entry>
+    <entry key="command.kit.noExists">Esta es una lista de todos los kits disponibles:</entry>
+    <entry key="command.kit.removed">Kit eliminado.</entry>
+    <entry key="command.kit.stillInCooldown">Refresco del kit activo, ¡faltan %c segundos!</entry>
 
     <entry key="command.locate.syntax.console">&lt;jugador></entry>
     <entry key="command.locate.syntax.player">&lt;jugador></entry>
-    <entry key="command.locate.info.console">Devuelve la posición de 'jugador'.</entry>
-    <entry key="command.locate.info.player">Devuelve la posición de 'jugador'.</entry>
+    <entry key="command.locate.info.console">Devuelve la posición del jugador especificado.</entry>
+    <entry key="command.locate.info.player">Devuelve la posición del jugador especificado.</entry>
 
-    <entry key="command.locate.msg">%s esta en  %1$d, %2$d, %3$d en la dimensión %4$d</entry>
+    <entry key="command.locate.msg">%s esta en %1$d, %2$d, %3$d en la dimensión %4$d</entry>
 
     <entry key="command.modlist.syntax.console">[página]</entry>
     <entry key="command.modlist.syntax.player">[página]</entry>
@@ -287,11 +292,11 @@
     <entry key="command.personalwarp.info.console"></entry>
     <entry key="command.personalwarp.info.player">Te teletransporta a tu portal personal.</entry>
 
-    <entry key="command.personalwarp.notfound">Ese portal personal no existe!</entry>
+    <entry key="command.personalwarp.notfound">¡Ese portal personal no existe!</entry>
     <entry key="command.personalwarp.list">Tus portales:</entry>
     <entry key="command.personalwarp.made">Portal personal añadido.</entry>
     <entry key="command.personalwarp.remove">Portal personal eliminado.</entry>
-    <entry key="command.personalwarp.alreadyexists">ese portal personal ya existe.</entry>
+    <entry key="command.personalwarp.alreadyexists">Ese portal personal ya existe.</entry>
 
     <entry key="command.ping.syntax.console"></entry>
     <entry key="command.ping.syntax.player"></entry>
@@ -334,7 +339,7 @@
     <entry key="command.invsee.syntax.console"></entry>
     <entry key="command.invsee.syntax.player">&lt;jugador></entry>
     <entry key="command.invsee.info.console"></entry>
-    <entry key="command.invsee.info.player">Ve y edita el inventario de 'jugador'.</entry>
+    <entry key="command.invsee.info.player">Muestra el inventario de 'jugador'.</entry>
 
     <entry key="command.serverdo.syntax.console"></entry>
     <entry key="command.serverdo.syntax.player">&lt;cmd> [args ...]</entry>
@@ -349,10 +354,10 @@
     <entry key="command.serversettings.list">Opciones disponibles:</entry>
 
     <entry key="command.setspawn.syntax.console">&lt;zona> &lt;X Y Z]</entry>
-    <entry key="command.setspawn.syntax.player">&lt;zona|aqui> &lt;X Y Z| aqui]</entry>
+    <entry key="command.setspawn.syntax.player">&lt;zona|here> &lt;X Y Z| here]</entry>
     <entry key="command.setspawn.info.console">Fija el punto de inicio de una zona</entry>
     <entry key="command.setspawn.info.player">Fija el punto de inicio de una zona</entry>
-    <entry key="command.setspawn.set">Punto de inicio si la zona %s establecida en %d, %d, %d.</entry>
+    <entry key="command.setspawn.set">Punto de inicio de la zona %s establecida en %d, %d, %d.</entry>
 
     <entry key="command.smite.syntax.console">&lt;jugador></entry>
     <entry key="command.smite.syntax.player">[me|&lt;jugador>]</entry>
@@ -376,7 +381,7 @@
     <entry key="command.spawnmob.info.player">Crea la cantidad especificada de criaturas en x,y,z</entry>
     <entry key="command.spawnmob.noMobX">Crea la cantidad especificada de criaturas en x,y,z</entry>
 
-    <entry key="command.spawnmob.noMobX">La criatura %s no existe.</entry>
+    <entry key="command.spawnmob.noMobX">No se reconoce %s como critaura.</entry>
 
     <entry key="command.top.info.player">Te teletransporta a lo alto del mundo.</entry>
     <entry key="command.top.info.console"></entry>
@@ -388,6 +393,11 @@
     <entry key="command.tp.syntax.player">[jugador] &lt;jugador|&lt;x> &lt;y> &lt;z>></entry>
     <entry key="command.tp.syntax.console">&lt;jugador> &lt;jugador|&lt;x> &lt;y> &lt;z>></entry>
 
+    <entry key="command.tppos.info.player">Te teletransporta a x y z</entry>
+    <entry key="command.tppos.info.console"></entry>
+    <entry key="command.tppos.syntax.player">&lt;x> &lt;y> &lt;z></entry>
+    <entry key="command.tppos.syntax.console"></entry>
+    
     <entry key="command.tpa.info.player">Teletransporta a ti o al jugador a x y z.</entry>
     <entry key="command.tpa.info.console">Teletransporta a ti o al jugador a x y z.</entry>
     <entry key="command.tpa.syntax.player">[player] &lt;jugador|&lt;x> &lt;y> &lt;z>></entry>
@@ -409,36 +419,24 @@
     <entry key="command.tpahere.gotTimeout">Agotado el tiempo de espera del TPAhere de %s.</entry>
     <entry key="command.tpahere.sendTimeout">Agotado el tiempo de espera del TPAhere a %s.</entry>
 
-    <entry key="command.tphere.info.player">Teletransporta al jugador hasta ti.</entry>
-    <entry key="command.tphere.info.console"></entry>
-    <entry key="command.tphere.syntax.player"></entry>
-    <entry key="command.tphere.syntax.console">&lt;jugador></entry>
-
-    <entry key="command.tphere.info.player">Te teletransporta a x y z.</entry>
-    <entry key="command.tphere.info.console"></entry>
-    <entry key="command.tphere.syntax.player"></entry>
-    <entry key="command.tphere.syntax.console">&lt;x> &lt;y> &lt;z></entry>
+    <entry key="command.tphere.info.player">Solicita teletransportarse hasta ti al jugador.</entry>
+    <entry key="command.tphere.syntax.player">&lt;jugador|accept|deny></entry>
 
     <entry key="command.tps.info.player">Obtiene el retraso en el servidor</entry>
     <entry key="command.tps.info.console">Obtiene el retraso en el servidor</entry>
     <entry key="command.tps.syntax.player">[todo|id dimensión]</entry>
     <entry key="command.tps.syntax.console">[todo|id dimensión]</entry>
 
-    <entry key="command.tpspawn.syntax.console">[jugador]</entry>
-    <entry key="command.tpspawn.info.console">Teletransporta a ti/a un jugador a tu/su punto de generación.</entry>
-    <entry key="command.tpspawn.syntax.player">[jugador]</entry>
-    <entry key="command.tpspawn.info.player">Teletransporta un jugador su punto de generación</entry>
-
     <entry key="command.virtualchest.syntax.console"></entry>
     <entry key="command.virtualchest.syntax.player"></entry>
     <entry key="command.virtualchest.info.console"></entry>
     <entry key="command.virtualchest.info.player">Abre tu cofre virtual</entry>
 
-    <entry key="command.warp.notfound">That warp doesn't exist!</entry>
-    <entry key="command.warp.list">All the warps on the server:</entry>
-    <entry key="command.warp.alreadyexists">That warp already exists. Use "/warp del &lt;name>" to delete.</entry>
-    <entry key="command.warp.syntax.player">[name] OR &lt;set|del> &lt;name> </entry>
-    <entry key="command.warp.info.player">Teleport you to a warp point</entry>
+    <entry key="command.warp.notfound">¡Ese portal no existe!</entry>
+    <entry key="command.warp.list">Tods los portales en el servidor:</entry>
+    <entry key="command.warp.alreadyexists">Es portal ya existe. Utiliza "/warp del &lt;nombre>" para borrarlo.</entry>
+    <entry key="command.warp.syntax.player">[nombre] OR &lt;set|del> &lt;nombre> </entry>
+    <entry key="command.warp.info.player">Te teletransporta a un portal</entry>
     <!-- End localization for ModuleCommands -->
 
     <!-- Begin localization for Core -->
@@ -461,6 +459,32 @@
     <entry key="message.credits.MysteriousAges">Backend, comandos WorldControl, formateo neurótico</entry>
     <!-- End localization for Core -->
 
+    <!-- Begin localization for ModuleSnooper -->
+	<entry key="command.queryreload.syntax.player"></entry>
+    <entry key="command.queryreload.info.player">Reinicia el proceso espia.</entry>
+    <entry key="command.queryreload.syntax.console"></entry>
+    <entry key="command.queryreload.info.console">Reinicia el proceso espia.</entry>
+	<!-- End localization for ModuleSnooper -->
+	
+	<!-- Begin localization for ModuleTicket -->
+	<entry key="command.ticket.syntax.player"></entry>
+    <entry key="command.ticket.info.player">El comando para asuntos de tickets</entry>
+    <entry key="command.ticket.syntax.console"></entry>
+    <entry key="command.ticket.info.console">El comando para asuntos de tickets</entry>
+	
+	<entry key="command.ticket.view.usage">Uso: /ticket view &lt;id></entry>
+	<entry key="command.ticket.new.usage">Uso: /ticket new &lt;categoria> &lt;mensaje ...></entry>
+	<entry key="command.ticket.tp.usage">Uso: /ticket tp &lt;id></entry>
+	<entry key="command.ticket.del.usage">Uso: /ticket del &lt;id></entry>
+	
+	
+	<entry key="message.error.illegalCategory">"%s" no es una categoría válida.</entry>
+	<entry key="message.confim.ticketPost">Tu ticket ha sido enviado. ID: %d</entry>
+	<entry key="message.confim.ticketDel">El ticket #%d ha sido eliminado</entry>
+	<entry key="message.other.ticketList.header">--- Lista de Tickets ---</entry>
+	<entry key="message.other.ticketList.pages">--- Página %1$d de %2$d ---"</entry>
+	<!-- End localization for ModuleTicket -->
+    
     <!-- Begin localization for ModuleEconomy -->
     <entry key="message.wallet.walletaddself"> añadido a tu cartera.</entry>
     <entry key="message.wallet.walletaddtarget"> añadido a la cartera.</entry>
@@ -472,25 +496,25 @@
     <entry key="message.wallet.walletsetself">Tu cartera fijada a </entry>
     <entry key="message.wallet.walletsettarget">Tu cartera fijada a </entry>
 
-    <entry key="command.walletset.syntax.player">[&lt;jugador> &lt;cantidad a fijar>]</entry>
-    <entry key="command.walletset.info.player">Fija la cartera del objetivo a la cantidad especificada.</entry>
-    <entry key="command.walletset.syntax.console">[&lt;jugador> &lt;cartera cantidad>]</entry>
-    <entry key="command.walletset.info.console">Fija la cartera del objetivo a la cantidad especificada.</entry>
+    <entry key="command.setwallet.syntax.player">[&lt;jugador> &lt;cantidad a fijar>]</entry>
+    <entry key="command.setwallet.info.player">Fija la cartera del objetivo a la cantidad especificada.</entry>
+    <entry key="command.setwallet.syntax.console">[&lt;jugador> &lt;cartera cantidad>]</entry>
+    <entry key="command.setwallet.info.console">Fija la cartera del objetivo a la cantidad especificada.</entry>
 
-    <entry key="command.walletadd.syntax.player">[&lt;jugador> &lt;cantidad a añadir>]</entry>
-    <entry key="command.walletadd.info.player">Añade la cantidad especificada a la cartera del objetivo</entry>
-    <entry key="command.walletadd.syntax.console">[&lt;jugador> &lt;cantidad a añadir>]</entry>
-    <entry key="command.walletadd.info.console">Añade la cantidad especificada a la cartera del objetivo</entry>
+    <entry key="command.addtowallet.syntax.player">[&lt;jugador> &lt;cantidad a añadir>]</entry>
+    <entry key="command.addtowallet.info.player">Añade la cantidad especificada a la cartera del objetivo</entry>
+    <entry key="command.addtowallet.syntax.console">[&lt;jugador> &lt;cantidad a añadir>]</entry>
+    <entry key="command.addtowallet.info.console">Añade la cantidad especificada a la cartera del objetivo</entry>
 
-    <entry key="command.walletremove.syntax.player">[&lt;jugador> &lt;cantidad a eliminar>]</entry>
-    <entry key="command.walletremove.info.player">Elimina la cantidad especificada de la cartera del objetivo</entry>
-    <entry key="command.walletremove.syntax.console">[&lt;jugador> &lt;cantidad a eliminar>]</entry>
-    <entry key="command.walletremove.info.console">Elimina la cantidad especificada de la cartera del objetivo</entry>
+    <entry key="command.removewallet.syntax.player">[&lt;jugador> &lt;cantidad a eliminar>]</entry>
+    <entry key="command.removewallet.info.player">Elimina la cantidad especificada de la cartera del objetivo</entry>
+    <entry key="command.removewallet.syntax.console">[&lt;jugador> &lt;cantidad a eliminar>]</entry>
+    <entry key="command.removewallet.info.console">Elimina la cantidad especificada de la cartera del objetivo</entry>
 
-    <entry key="command.walletget.syntax.player">[&lt;jugador>]</entry>
-    <entry key="command.walletget.info.player">Devuelve la cartera del objetivo</entry>
-    <entry key="command.walletget.syntax.console">[&lt;jugador>]</entry>
-    <entry key="command.walletget.info.console">Devuelve la cartera del objetivo</entry>
+    <entry key="command.getwallet.syntax.player">[&lt;jugador>]</entry>
+    <entry key="command.getwallet.info.player">Devuelve la cartera del objetivo</entry>
+    <entry key="command.getwallet.syntax.console">[&lt;jugador>]</entry>
+    <entry key="command.getwallet.info.console">Devuelve la cartera del objetivo</entry>
 
     <entry key="command.pay.syntax.player">&lt;jugador> &lt;cantidad></entry>
     <entry key="command.pay.info.player">Paga la cantidad especificada. Debes tener suficiente dinero.</entry>
@@ -579,6 +603,8 @@
     <entry key="command.permissions.user.info.groups">--- Grupo %s está en....</entry>
     <entry key="command.permissions.user.info.supers">--- SUPER permisos para %s...</entry>
 
+    <entry key="command.autopromote.syntax.player">&lt;zona> [get|enable|disable|edit|add|message] [otras opciones]</entry>
+    <entry key="command.autopromote.info.player">Controla el módulo AutoPromote</entry>
 
     <!-- Some localization for Zones -->
     <entry key="command.permissions.zone.list.header">--- Mostrando la página %1$d de %2$d de la lista de zonas ---</entry>
