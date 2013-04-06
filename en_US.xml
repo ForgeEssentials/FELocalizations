@@ -408,7 +408,7 @@
 	<entry key="command.tpa.accepted">TPA accepted.</entry>
 	<entry key="command.tpa.declined">TPA declined.</entry>
 	<entry key="command.tpa.sendRequest">Sent a TPA request to %s.</entry>
-	<entry key="command.tpa.gotRequest">You recived a TPA request from %s.</entry>
+	<entry key="command.tpa.gotRequest">You recived a TPA request from %s. Enter "/tpa accept" to accept, "/tpa decline" to decline.</entry>
 	
 	<entry key="command.tpa.gotTimeout">TPA from %s timed out.</entry>
 	<entry key="command.tpa.sendTimeout">TPA to %s timed out.</entry>
