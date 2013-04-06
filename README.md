@@ -1,22 +1,32 @@
-FELocalizations
-===============
+#FELocalizations#
+#### This repository contains all official Localizations for the ForgeEssentials project. ####
+______________________________________________________________________________________________
 
-Localizations for the ForgeEssentials project.
-These are extremely subject to change. You have been warned.
+**Please Note:** These localizations are subject to constant change and may be unreliable. The ForgeEssentials team, nor any of ForgeEssentials' contributors, hold no guarantee as to the state of these localizations and thereby shall not be held responsible for any damages incurred through their use. User discretion is advised. This repository is governed by the license found at [https://github.com/ForgeEssentials/ForgeEssentialsMain/blob/master/LICENSE.TXT](https://github.com/ForgeEssentials/ForgeEssentialsMain/blob/master/LICENSE.TXT).
 
 To submit new localizations, make a pull request. You may be given commit access to this repo if you have enough pulls to make.
 
-## Using Localization
+
+<br>
+<br>
+
+## Using Localizations:
 If you ever find yourself writing a message in code that will be seen by a player, you will need to localize it. When creating new localization keys, please follow lower camel case for key names. For example, `noHomeSet` is easier to read than `nohomeset`. Function names follow the same convention.
 
 If you need to insert data into a string, don't assume that all languages place these extra bits into the same spot as English does - use the string format specifiers, detailed in the Formatting Guide on the bottom of this page.
 
-## Creating new Languages
+<br>
+<br>
+
+## Creating New Localizations:
 If you are **fluent** (could hold a conversation) in a language that ForgeEssentials does not yet have, you are encouraged to create a locale file containing translations with all the current strings and submit a Pull Request to us. We will try and get it rolled into ForgeEssentials as quickly as possible.
 
 While writing your new locale file, please make sure you read our Formatting Guide on this page, and make sure you understand what the crazy symbols in the strings are doing. If you do not understand the guide, come join us in #forgeessentials on irc.esper.net and someone should be able to explain it. If you do not follow the guide correctly, we will not accept your PR.
 
-## Editing existing translations
+<br>
+<br>
+
+## Editing Existing Translations:
 If you discover an error in one of our localization strings, submit a new issue. Make sure your bug report follows this format:
 
 `Localization file <language>.xml key "<key in XML file>" is incorrect. Should be <correct string>`
@@ -27,7 +37,10 @@ For example:
 
 If the locale file is _very_ wrong and contains multiple errors, the better approach would be to submit a PR to us containing all the corrections.
 
-## Formatting Guide
+<br>
+<br>
+
+## Formatting Guide:
 
 Since it is necessary to include numbers and/or strings in messages, and not all languages place them in the same place within a message, we use Java's String.format function to splice numbers and strings (like block or player names) into base localized strings. For a full, gory explanation of how they work, read the [Java Formatter docpage](http://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html#syntax). The basics are provided here in case you need a quick fix.
 
@@ -43,4 +56,4 @@ Unfortunatly in some cases, we need to place more than one extra piece of data i
 
 This string accepts two integers, the current page being viewed in the first slot (denoted by the `1$`) the total number of pages being passed in the second slot (denoted by the `2$`), producing output like `modlist page 1 of 6`. If we wanted to swap the two, and make the output look like: `Of 6 pages, you are on page 1`, we would have to make the localization entry: `Of %2$d pages, you are on page %1$d`. This is because the parameter order in the _code_ is being referenced by the `x$` part of the format specifier, and remains the same across all languages. If you get them mixed up, you will end up with the wrong output.
 
-If none of this made sense to you, it might be easier to let someone else do the localizing for your language.
+***If none of this made sense to you, it might be easier to let someone else do the localizing for your language.***
