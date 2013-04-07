@@ -134,6 +134,8 @@
     <entry key="command.bed.info.player">Teleports you to your spawn point or bed.</entry>
     
 	<entry key="command.bed.done">You have been teleported to your spawn point.</entry>
+	<entry key="command.bed.noExist">You do no not have a bed set.</entry>
+	<entry key="command.bed.obstructed">Your bed is obstructed.</entry>
 	
     <entry key="command.burn.syntax.console">&lt;player></entry>
     <entry key="command.burn.syntax.player">[me|&lt;player>]</entry>
@@ -353,11 +355,17 @@
 	
 	<entry key="command.serversettings.list">Available options:</entry>
 	
-    <entry key="command.setspawn.syntax.console">&lt;zone> &lt;X Y Z]</entry>
-    <entry key="command.setspawn.syntax.player">&lt;zone|here> &lt;X Y Z| here]</entry>
-    <entry key="command.setspawn.info.console">Sets the spawn point of a zone.</entry>
-    <entry key="command.setspawn.info.player">Sets the spawn point of a zone.</entry>
-    <entry key="command.setspawn.set">Spawn point of zone %1$s set to %2$d, %3$d, %4$d</entry>
+    <entry key="command.setspawn.syntax.console">help</entry>
+    <entry key="command.setspawn.syntax.player">help</entry>
+    <entry key="command.setspawn.info.console">Sets the spawn point or spawn type.</entry>
+    <entry key="command.setspawn.info.player">Sets the spawn point or spawn type.</entry>
+    <entry key="command.setspawn.setPoint">Spawn point set to %1$d, %2$d, %3$d</entry>
+	<entry key="command.setspawn.setType">Spawn type set to %1$s</entry>
+	<entry key="command.setspawn.help.1"> - /setspawn type &lt;player|group|zone> &lt;name> &lt;none|bed|point> [zone]</entry>
+	<entry key="command.setspawn.help.2"> - - sets the spawn type of the player, group, or zone</entry>
+	<entry key="command.setspawn.help.3"> - /setspawn point &lt;player|group|zone> &lt;name> &lt;here|&lt;x> &lt;y> &lt;z>> [zone]</entry>
+	<entry key="command.setspawn.help.4"> - - sets the spawn type of the player, group, or zone</entry>
+	<entry key="command.setspawn.help.5"> - the final [zone] argument is not necessary if the 2nd argument is zone</entry>
     
     <entry key="command.smite.syntax.console">&lt;player></entry>
     <entry key="command.smite.syntax.player">[me|&lt;player>]</entry>
@@ -370,7 +378,7 @@
     
     <entry key="command.spawn.syntax.console">[player]</entry>
     <entry key="command.spawn.info.console">Teleports you or a player to your or their spawnpoint</entry>
-    <entry key="command.spawn.syntax.player">&#60;player> [dimension]</entry>
+    <entry key="command.spawn.syntax.player">&lt;player> [dimension]</entry>
     <entry key="command.spawn.info.player">Teleports a player to their spawnpoint</entry>
 	
     <entry key="command.spawn.done">Teleported to spawn.</entry>
@@ -406,7 +414,7 @@
 	<entry key="command.tpa.accepted">TPA accepted.</entry>
 	<entry key="command.tpa.declined">TPA declined.</entry>
 	<entry key="command.tpa.sendRequest">Sent a TPA request to %s.</entry>
-	<entry key="command.tpa.gotRequest">You recived a TPA request from %s.</entry>
+	<entry key="command.tpa.gotRequest">You recived a TPA request from %s. Enter "/tpa accept" to accept, "/tpa decline" to decline.</entry>
 	
 	<entry key="command.tpa.gotTimeout">TPA from %s timed out.</entry>
 	<entry key="command.tpa.sendTimeout">TPA to %s timed out.</entry>
