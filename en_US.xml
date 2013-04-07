@@ -299,6 +299,11 @@
 	<entry key="command.personalwarp.made">Personal warp sucessfully added.</entry>
 	<entry key="command.personalwarp.remove">Personal warp sucessfully removed.</entry>
     <entry key="command.personalwarp.alreadyexists">That personal warp already exists.</entry>
+	<entry key="command.personalwarp.limitmsg">You have reached your limit.</entry>
+	
+	<entry key="command.personalwarp.limit.syntax">Specify a group or player. (-1 means no limit.)</entry>
+	<entry key="command.personalwarp.limit.current">The curreny limit is %s.</entry>
+	<entry key="command.personalwarp.limit.current">You set that limit to limit is %s.</entry>
 
 	<entry key="command.ping.syntax.console"></entry>
     <entry key="command.ping.syntax.player"></entry>
