@@ -120,6 +120,9 @@
 	<entry key="command.afk.warmup">Stand still for %d seconds.</entry>
 	<entry key="command.afk.in">You are now AFK.</entry>
 	<entry key="command.afk.out">AFK lifted.</entry>
+
+	<entry key="command.afk.notice.in">%s is now AFK.</entry>
+	<entry key="command.afk.notice.out">%s is back from AFK.</entry>
 	
     <entry key="command.back.syntax.console">/back</entry>
     <entry key="command.back.syntax.player">/back</entry>
