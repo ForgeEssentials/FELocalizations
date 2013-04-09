@@ -120,6 +120,9 @@
 	<entry key="command.afk.warmup">Stand still for %d seconds.</entry>
 	<entry key="command.afk.in">You are now AFK.</entry>
 	<entry key="command.afk.out">AFK lifted.</entry>
+
+	<entry key="command.afk.notice.in">%s is now AFK.</entry>
+	<entry key="command.afk.notice.out">%s is back from AFK.</entry>
 	
     <entry key="command.back.syntax.console">/back</entry>
     <entry key="command.back.syntax.player">/back</entry>
@@ -299,6 +302,11 @@
 	<entry key="command.personalwarp.made">Personal warp sucessfully added.</entry>
 	<entry key="command.personalwarp.remove">Personal warp sucessfully removed.</entry>
     <entry key="command.personalwarp.alreadyexists">That personal warp already exists.</entry>
+	<entry key="command.personalwarp.limitmsg">You have reached your limit.</entry>
+	
+	<entry key="command.personalwarp.limit.syntax">Specify a group or player. (-1 means no limit.)</entry>
+	<entry key="command.personalwarp.limit.current">The curreny limit is %s.</entry>
+	<entry key="command.personalwarp.limit.new">You set that limit to limit %s.</entry>
 
 	<entry key="command.ping.syntax.console"></entry>
     <entry key="command.ping.syntax.player"></entry>
