@@ -9,7 +9,7 @@
     <entry key="command.auth.syntax.console">&lt;help></entry>
     <entry key="command.auth.syntax.player">&lt;help></entry>
     <entry key="command.auth.info.console">Controla el modulo de autorización</entry>
-    <entry key="command.auth.info.player">Hace tareas de autorización</entry>
+    <entry key="command.auth.info.player">Realiza tareas de autorización</entry>
   
     <entry key="command.auth.usage">/auth &lt;help></entry>
     <entry key="command.auth.usage.kick">/auth kick &lt;jugador></entry>
@@ -120,6 +120,9 @@
     <entry key="command.afk.warmup">Permanece quieto durante %d segundos.</entry>
     <entry key="command.afk.in">Estás AFK.</entry>
     <entry key="command.afk.out">AFK retirado.</entry>
+    
+    <entry key="command.afk.notice.in">%s está ausente.</entry>
+    <entry key="command.afk.notice.out">%s ya no está ausente.</entry>
 
     <entry key="command.back.syntax.console">/back</entry>
     <entry key="command.back.syntax.player">/back</entry>
@@ -134,6 +137,8 @@
     <entry key="command.bed.info.player">Te teletransporta a tu cama o punto de inicio.</entry>
 
     <entry key="command.bed.done">Has sido teletransportado a tu punto de inicio.</entry>
+    <entry key="command.bed.noExist">No tienes una cama.</entry>
+    <entry key="command.bed.obstructed">Tu cama está obstruida.</entry>
 
     <entry key="command.burn.syntax.console">&lt;jugador></entry>
     <entry key="command.burn.syntax.player">[me|&lt;jugador>]</entry>
@@ -297,6 +302,11 @@
     <entry key="command.personalwarp.made">Portal personal añadido.</entry>
     <entry key="command.personalwarp.remove">Portal personal eliminado.</entry>
     <entry key="command.personalwarp.alreadyexists">Ese portal personal ya existe.</entry>
+    <entry key="command.personalwarp.limitmsg">Has alcanzado tu límite.</entry>
+	
+    <entry key="command.personalwarp.limit.syntax">Especifica un grupo o jugador (-1 significa sín límite.)</entry>
+    <entry key="command.personalwarp.limit.current">El límite actual es %s.</entry>
+    <entry key="command.personalwarp.limit.new">Has establecido el limite en %s.</entry>    
 
     <entry key="command.ping.syntax.console"></entry>
     <entry key="command.ping.syntax.player"></entry>
@@ -353,11 +363,18 @@
 
     <entry key="command.serversettings.list">Opciones disponibles:</entry>
 
-    <entry key="command.setspawn.syntax.console">&lt;zona> &lt;X Y Z]</entry>
-    <entry key="command.setspawn.syntax.player">&lt;zona|here> &lt;X Y Z| here]</entry>
-    <entry key="command.setspawn.info.console">Fija el punto de inicio de una zona</entry>
-    <entry key="command.setspawn.info.player">Fija el punto de inicio de una zona</entry>
-    <entry key="command.setspawn.set">Punto de inicio de la zona %s establecida en %d, %d, %d.</entry>
+    <entry key="command.setspawn.syntax.console">help</entry>
+    <entry key="command.setspawn.syntax.player">help</entry>
+    <entry key="command.setspawn.info.console">Fija el spawn o el tipo de spawn</entry>
+    <entry key="command.setspawn.info.player">Fija el spawn o el tipo de spawn</entry>
+    <entry key="command.setspawn.setPoint">Punto de inicio de la zona %s establecida en %d, %d, %d.</entry>
+    <entry key="command.setspawn.setType">Tipo de spawn establecido a %1$s</entry>
+    <entry key="command.setspawn.help.1"> - /setspawn tipo &lt;jugador|grupo|zona> &lt;nombre> &lt;none|bed|point> [zona]</entry>
+    <entry key="command.setspawn.help.2"> - - Fija el tipo de spawn del jugador, grupo o zona</entry>
+    <entry key="command.setspawn.help.3"> - /setspawn punto &lt;jugador|grupo|zona> &lt;nombre> &lt;here|&lt;x> &lt;y> &lt;z>> [zona]</entry>
+    <entry key="command.setspawn.help.4"> - - Fija el tipo de spawn del jugador, grupo o zona</entry>
+    <entry key="command.setspawn.help.5"> - el argumento final [zona] no es necesario si el segundo argumento es una zona</entry>
+    
 
     <entry key="command.smite.syntax.console">&lt;jugador></entry>
     <entry key="command.smite.syntax.player">[me|&lt;jugador>]</entry>
@@ -370,7 +387,7 @@
 
     <entry key="command.spawn.syntax.console">[jugador]</entry>
     <entry key="command.spawn.info.console">Teletransporta a ti o a un jugador a tu/su punto de generación.</entry>
-    <entry key="command.spawn.syntax.player">&#60;jugador> [dimensión]</entry>
+    <entry key="command.spawn.syntax.player">&lt;jugador> [dimensión]</entry>
     <entry key="command.spawn.info.player">Teletransporta a un jugador a su punto de generación.</entry>
 
     <entry key="command.spawn.done">Teletransportado al punto de generación.</entry>
@@ -379,6 +396,7 @@
     <entry key="command.spawnmob.info.console">Crea la cantidad especificada de criaturas en x,y,z o donde estes mirando</entry>
     <entry key="command.spawnmob.syntax.player">&lt;tipo criatura> &lt;cantidad> [&lt;x> &lt;y> &lt;z>] [dimensión]</entry>
     <entry key="command.spawnmob.info.player">Crea la cantidad especificada de criaturas en x,y,z</entry>
+    <entry key="command.spawnmob.info.comsole">Crea la cantidad especificada de criaturas en x,y,z</entry>
     <entry key="command.spawnmob.noMobX">Crea la cantidad especificada de criaturas en x,y,z</entry>
 
     <entry key="command.spawnmob.noMobX">No se reconoce %s como critaura.</entry>
