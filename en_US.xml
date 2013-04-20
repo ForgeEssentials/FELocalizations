@@ -453,6 +453,25 @@
     <entry key="command.warp.alreadyexists">That warp already exists. Use "/warp del &lt;name>" to delete.</entry>
     <entry key="command.warp.syntax.player">[name] OR &lt;set|del> &lt;name> </entry>
     <entry key="command.warp.info.player">Teleports you to a warp point</entry>
+	
+	<entry key="command.time.syntax.console">[DimID, none for all] &lt;freeze|add|lock [day|night]|set [day|night]></entry>
+    <entry key="command.time.syntax.player">[DimID, none for all] &lt;freeze|add|lock [day|night]|set [day|night]></entry>
+    <entry key="command.time.info.console">Allows for the manipulation of time.</entry>
+    <entry key="command.time.info.player">Allows for the manipulation of time.</entry>
+	<entry key="command.time.freeze.on">Froze time.</entry>
+	<entry key="command.time.freeze.off">Unfroze time.</entry>
+	<entry key="command.time.lock">Locked time to %s.</entry>
+	<entry key="command.time.set">Set time to %s.</entry>
+	<entry key="command.time.add">Added %d to the current time.</entry>
+	
+	<entry key="command.weather.syntax.console">[DimID, none for all] &lt;rain|storm> [on|off]</entry>
+    <entry key="command.weather.syntax.player">[DimID, none for all] &lt;rain|storm> [on|off]</entry>
+    <entry key="command.weather.info.console">Allows for the permanent manipulation of the weather.</entry>
+    <entry key="command.weather.info.player">Allows for the permanent manipulation of the weather.</entry>
+	<entry key="command.weather.rain.on">Turned rain on. (permanent)</entry>
+	<entry key="command.weather.rain.off">Turned rain off. (permanent)</entry>
+	<entry key="command.weather.storm.on">Turned storm on. (permanent)</entry>
+	<entry key="command.weather.storm.off">Turned storm off. (permanent)</entry>
 	<!-- End localization for ModuleCommands -->
 	
 	<!-- Begin localization for Core -->
