@@ -472,6 +472,16 @@
 	<entry key="command.weather.rain.off">Turned rain off. (permanent)</entry>
 	<entry key="command.weather.storm.on">Turned storm on. (permanent)</entry>
 	<entry key="command.weather.storm.off">Turned storm off. (permanent)</entry>
+	
+	<entry key="command.bind.syntax.console"></entry>
+    <entry key="command.bind.syntax.player">&lt;left|right|clear> &lt;command [args]></entry>
+    <entry key="command.bind.info.console">Bind a command to an itemstack.</entry>
+    <entry key="command.bind.info.player">Bind a command to an itemstack.</entry>
+	
+	<entry key="command.rename.syntax.console"></entry>
+    <entry key="command.rename.syntax.player">&lt;name...></entry>
+    <entry key="command.rename.info.console">Rename an itemstack.</entry>
+    <entry key="command.rename.info.player">Rename an itemstack.</entry>
 	<!-- End localization for ModuleCommands -->
 	
 	<!-- Begin localization for Core -->
