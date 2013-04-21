@@ -278,7 +278,7 @@
     <entry key="command.locate.info.console">Returns the location of the specified player.</entry>
     <entry key="command.locate.info.player">Returns the location of the specified player.</entry>
     
-	<entry key="command.locate.msg">%s is at %1$d, %2$d, %3$d in dim %4$d</entry>
+	<entry key="command.locate.msg">%s is at %1$d, %2$d, %3$d in dim %4$d with gamemode %3$d</entry>
 	
     <entry key="command.modlist.syntax.console">[page]</entry>
     <entry key="command.modlist.syntax.player">[page]</entry>
