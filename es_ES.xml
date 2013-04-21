@@ -278,7 +278,7 @@
     <entry key="command.locate.info.console">Devuelve la posición del jugador especificado.</entry>
     <entry key="command.locate.info.player">Devuelve la posición del jugador especificado.</entry>
 
-    <entry key="command.locate.msg">%s esta en %1$d, %2$d, %3$d en la dimensión %4$d</entry>
+    <entry key="command.locate.msg">%s esta en %1$d, %2$d, %3$d en la dimensión %4$d  con modo de juego %3$d</entry>
 
     <entry key="command.modlist.syntax.console">[página]</entry>
     <entry key="command.modlist.syntax.player">[página]</entry>
@@ -296,6 +296,16 @@
     <entry key="command.personalwarp.syntax.player">[nombre] O &lt;set|del> &lt;nombre> </entry>
     <entry key="command.personalwarp.info.console"></entry>
     <entry key="command.personalwarp.info.player">Te teletransporta a tu portal personal.</entry>
+   
+   <entry key="command.bind.syntax.console"></entry>
+   <entry key="command.bind.syntax.player">&lt;left|right|clear> &lt;comando [args]></entry>
+   <entry key="command.bind.info.console">Enlaza un comando a una pila de objetos.</entry>
+   <entry key="command.bind.info.player">Enlaza un comando a una pila de objetos.</entry>
+  
+   <entry key="command.rename.syntax.console"></entry>
+   <entry key="command.rename.syntax.player">&lt;nombre...></entry>
+   <entry key="command.rename.info.console">Renombra una pila de objetos.</entry>
+   <entry key="command.rename.info.player">Renombra una pila de objetos.</entry>
 
     <entry key="command.personalwarp.notfound">¡Ese portal personal no existe!</entry>
     <entry key="command.personalwarp.list">Tus portales:</entry>
@@ -455,6 +465,26 @@
     <entry key="command.warp.alreadyexists">Es portal ya existe. Utiliza "/warp del &lt;nombre>" para borrarlo.</entry>
     <entry key="command.warp.syntax.player">[nombre] OR &lt;set|del> &lt;nombre> </entry>
     <entry key="command.warp.info.player">Te teletransporta a un portal</entry>
+    
+   <entry key="command.time.syntax.console">[IDDim, nada para todas] &lt;freeze|add|lock [day|night]|set [day|night]></entry>
+   <entry key="command.time.syntax.player">[IDDim, nada para todas] &lt;freeze|add|lock [day|night]|set [day|night]></entry>
+   <entry key="command.time.info.console">Permite la manipulación de la hora.</entry>
+   <entry key="command.time.info.player">Permite la manipulación de la hora</entry>
+   <entry key="command.time.freeze.on">Congela el tiempo.</entry>
+   <entry key="command.time.freeze.off">Descongela el tiempo.</entry>
+   <entry key="command.time.lock">Hora fijada a %s.</entry>
+   <entry key="command.time.set">Hora fijada a %s.</entry>
+   <entry key="command.time.add">Añadido %d al tiempo actual.</entry>
+   
+   <entry key="command.weather.syntax.console">[IDDim, nada para todas] &lt;rain|storm> [on|off]</entry>
+   <entry key="command.weather.syntax.player">[IDDim, nada para todas] &lt;rain|storm> [on|off]</entry>
+   <entry key="command.weather.info.console">Permite la manipulación permanente del clima.</entry>
+   <entry key="command.weather.info.player">Permite la manipulación permanente del clima.</entry>
+   <entry key="command.weather.rain.on">Lluvia activada. (permanente)</entry>
+   <entry key="command.weather.rain.off">Lluvia desactivada. (permanente)</entry>
+   <entry key="command.weather.storm.on">Tormenta activada.(permanente)</entry>
+   <entry key="command.weather.storm.off">Tormenta desactivada. (permanente)</entry>
+      
     <!-- End localization for ModuleCommands -->
 
     <!-- Begin localization for Core -->
