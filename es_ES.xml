@@ -278,7 +278,7 @@
     <entry key="command.locate.info.console">Devuelve la posición del jugador especificado.</entry>
     <entry key="command.locate.info.player">Devuelve la posición del jugador especificado.</entry>
 
-    <entry key="command.locate.msg">%s esta en %1$d, %2$d, %3$d en la dimensión %4$d  con modo de juego %3$d</entry>
+    <entry key="command.locate.msg">%1$s esta en %2$d, %3$d, %4$d en la dimensión %5$d  con modo de juego %6$d</entry>
 
     <entry key="command.modlist.syntax.console">[página]</entry>
     <entry key="command.modlist.syntax.player">[página]</entry>
