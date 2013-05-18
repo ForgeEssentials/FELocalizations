@@ -416,7 +416,7 @@
     
 	<entry key="command.tpa.info.player">Teleports you or a player to a player or x y z.</entry>
     <entry key="command.tpa.info.console">Teleports a player to a player or x y z.</entry>
-    <entry key="command.tpa.syntax.player">[player] &lt;player|&lt;x> &lt;y> &lt;z>></entry>
+    <entry key="command.tpa.syntax.player">[player] &lt;player|&lt;x> &lt;y> &lt;z|accept|decline>></entry>
     <entry key="command.tpa.syntax.console">&lt;player> &lt;player|&lt;x> &lt;y> &lt;z>></entry>
 	
 	<entry key="command.tpa.accepted">TPA accepted.</entry>
@@ -430,13 +430,13 @@
 	<entry key="command.tpahere.accepted">TPAhere accepted.</entry>
 	<entry key="command.tpahere.declined">TPAhere declined.</entry>
 	<entry key="command.tpahere.sendRequest">Sent a TPAhere request to %s.</entry>
-	<entry key="command.tpahere.gotRequest">You recived a TPAhere request from %s.</entry>
+	<entry key="command.tpahere.gotRequest">You recived a TPAhere request from %s. Enter "/tpahere accept" to accept, "/tpahere decline" to decline.</entry>
 	
 	<entry key="command.tpahere.gotTimeout">TPAhere from %s timed out.</entry>
 	<entry key="command.tpahere.sendTimeout">TPAhere to %s timed out.</entry>
 	
-	<entry key="command.tphere.info.player">Requests a player to teleport to you.</entry>
-    <entry key="command.tphere.syntax.player">&lt;player|accept|deny></entry>
+	<entry key="command.tphere.info.player">Teleports a player to you.</entry>
+    <entry key="command.tphere.syntax.player">&lt;player></entry>
 	
     <entry key="command.tps.info.player">Gets a server lag estimate.</entry>
     <entry key="command.tps.info.console">Gets a server lag estimate.</entry>
