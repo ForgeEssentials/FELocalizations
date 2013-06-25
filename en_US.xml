@@ -371,7 +371,7 @@
 	<entry key="command.setspawn.setType">Spawn type set to %1$s</entry>
 	<entry key="command.setspawn.help.1"> - /setspawn type &lt;player|group|zone> &lt;name> &lt;none|bed|point> [zone]</entry>
 	<entry key="command.setspawn.help.2"> - - sets the spawn type of the player, group, or zone</entry>
-	<entry key="command.setspawn.help.3"> - /setspawn point &lt;player|group|zone> &lt;name> &lt;here|&lt;x> &lt;y> &lt;z>> [zone]</entry>
+	<entry key="command.setspawn.help.3"> - /setspawn point &lt;player|group|zone> &lt;name> &lt;here|revert|&lt;x> &lt;y> &lt;z>> [zone]</entry>
 	<entry key="command.setspawn.help.4"> - - sets the spawn type of the player, group, or zone</entry>
 	<entry key="command.setspawn.help.5"> - the final [zone] argument is not necessary if the 2nd argument is zone</entry>
     
