@@ -379,10 +379,10 @@
     <entry key="command.setspawn.info.player">Fija el spawn o el tipo de spawn</entry>
     <entry key="command.setspawn.setPoint">Punto de inicio de la zona %s establecida en %d, %d, %d.</entry>
     <entry key="command.setspawn.setType">Tipo de spawn establecido a %1$s</entry>
-    <entry key="command.setspawn.help.1"> - /setspawn tipo &lt;jugador|grupo|zona> &lt;nombre> &lt;none|bed|point> [zona]</entry>
+    <entry key="command.setspawn.help.1"> - /setspawn type &lt;jugador|grupo|zona> &lt;nombre> &lt;none|bed|point> [zona]</entry>
     <entry key="command.setspawn.help.2"> - - Fija el tipo de spawn del jugador, grupo o zona</entry>
-    <entry key="command.setspawn.help.3"> - /setspawn punto &lt;jugador|grupo|zona> &lt;nombre> &lt;here|&lt;x> &lt;y> &lt;z>> [zona]</entry>
-    <entry key="command.setspawn.help.4"> - - Fija el tipo de spawn del jugador, grupo o zona</entry>
+    <entry key="command.setspawn.help.3"> - /setspawn point &lt;jugador|grupo|zona> &lt;nombre> &lt;here|revert|&lt;x> &lt;y> &lt;z>> [zona]</entry>
+    <entry key="command.setspawn.help.4"> - - Fija el punto de spawn del jugador, grupo o zona</entry>
     <entry key="command.setspawn.help.5"> - el argumento final [zona] no es necesario si el segundo argumento es una zona</entry>
     
 
