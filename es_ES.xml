@@ -293,7 +293,7 @@
     <entry key="command.motd.info.player">Muestra o recarga el mensaje del día.</entry>
 
     <entry key="command.personalwarp.syntax.console"></entry>
-    <entry key="command.personalwarp.syntax.player">[nombre] O &lt;set|del> &lt;nombre> </entry>
+    <entry key="command.personalwarp.syntax.player">goto [nombre] O &lt;add|remove> &lt;nombre> </entry>
     <entry key="command.personalwarp.info.console"></entry>
     <entry key="command.personalwarp.info.player">Te teletransporta a tu portal personal.</entry>
    

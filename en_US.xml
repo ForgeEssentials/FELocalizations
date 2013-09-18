@@ -293,7 +293,7 @@
     <entry key="command.motd.info.player">Displays or reloads the message of the day.</entry>
     
 	<entry key="command.personalwarp.syntax.console"></entry>
-	<entry key="command.personalwarp.syntax.player">[name] OR &lt;set|del> &lt;name> </entry>
+	<entry key="command.personalwarp.syntax.player">goto [name] OR &lt;add|remove> &lt;name> </entry>
 	<entry key="command.personalwarp.info.console"></entry>
     <entry key="command.personalwarp.info.player">Teleports you to a personal warp.</entry>
 	
