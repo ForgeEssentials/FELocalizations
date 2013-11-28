@@ -1,5 +1,5 @@
 #FELocalizations#
-#### This repository contains all official Localizations for the ForgeEssentials project. ####
+#### This repository contains all official Localizations for ForgeEssentials 2. ####
 ______________________________________________________________________________________________
 
 **Please Note:** These localizations are subject to constant change and may be unreliable. The ForgeEssentials team, nor any of ForgeEssentials' contributors, hold no guarantee as to the state of these localizations and thereby shall not be held responsible for any damages incurred through their use. User discretion is advised. This repository is governed by the license found at [https://github.com/ForgeEssentials/ForgeEssentialsMain/blob/master/LICENSE.TXT](https://github.com/ForgeEssentials/ForgeEssentialsMain/blob/master/LICENSE.TXT).
@@ -29,11 +29,11 @@ While writing your new locale file, please make sure you read our Formatting Gui
 ## Editing Existing Translations:
 If you discover an error in one of our localization strings, submit a new issue. Make sure your bug report follows this format:
 
-`Localization file <language>.xml key "<key in XML file>" is incorrect. Should be <correct string>`
+`Localization file <language>.lang key "<key in lang file>" is incorrect. Should be <correct string>`
 
 For example:
 
-`Localization file en_US.xml key "message.error.permdenied" should have the entry: "You do not have permission to do that!"`
+`Localization file en_US.lang key "message.error.permdenied" should have the entry: "You do not have permission to do that!"`
 
 If the locale file is _very_ wrong and contains multiple errors, the better approach would be to submit a PR to us containing all the corrections.
 
@@ -46,13 +46,13 @@ Since it is necessary to include numbers and/or strings in messages, and not all
 
 A _format specifier_ is denoted by a `%` in the string. (If you need to insert a percent symbol into the string, use `%%`) It may be followed by a `x$` where x is a number corresponding to the parameter that is being passed in code and will always have another letter denoting how the parameter should be interpreted. This is usually either `d` for numbers with no decimal places, `f` for numbers with decimal places, or `s` for other strings. Most often, things like `%d` or `%s` will appear in a localization entry. These are strings that accept one parameter, an integer and a string respectively. For example, you may see:
 
-`<entry key="message.wc.invalidBlockId">%d is not a valid block ID!</entry>`
+`message.wc.invalidBlockId=%d is not a valid block ID!`
 
 This entry contains a string that will have a number inserted into it at the front.
 
 Unfortunatly in some cases, we need to place more than one extra piece of data into the same string. This is where the `x$` notation comes in. For example:
 
-`<entry key="command.modlist.header">--- Showing the modlist page %1$d of %2$d ---</entry>`
+`command.modlist.header=--- Showing the modlist page %1$d of %2$d ---`
 
 This string accepts two integers, the current page being viewed in the first slot (denoted by the `1$`) the total number of pages being passed in the second slot (denoted by the `2$`), producing output like `modlist page 1 of 6`. If we wanted to swap the two, and make the output look like: `Of 6 pages, you are on page 1`, we would have to make the localization entry: `Of %2$d pages, you are on page %1$d`. This is because the parameter order in the _code_ is being referenced by the `x$` part of the format specifier, and remains the same across all languages. If you get them mixed up, you will end up with the wrong output.
 
