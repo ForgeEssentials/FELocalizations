@@ -1,0 +1,663 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+    <comment (中文) 本地化文件, &lt; 是小于或左箭头符号</comment>
+    <!-- Begin localization for ModuleAfterlife -->
+	<entry key="message.afterlife.protectionEnabled">此墓地在Notch的保护中。</entry>
+	<!-- End localization for ModuleAfterlife -->
+	
+	<!-- Begin localization for ModuleAuth -->
+	<entry key="command.auth.syntax.console">&lt;帮助></entry>
+    <entry key="command.auth.syntax.player">&lt;帮助></entry>
+    <entry key="command.auth.info.console">控制注册系统。</entry>
+    <entry key="command.auth.info.player">用于登录游戏后注册。</entry>
+	
+	<entry key="command.auth.usage">/auth &lt;帮助></entry>
+	<entry key="command.auth.usage.kick">/auth kick &lt;玩家></entry>
+	<entry key="command.auth.kick.user">%s被注册系统踢出了。</entry>
+	<entry key="command.auth.kick.target">你被踢了，请重新登录。</entry>
+	
+	<entry key="command.auth.login.success">成功登录！</entry>
+	<entry key="command.auth.register.success">成功注册！</entry>
+	<entry key="command.auth.login.fail">登陆失败：错误密码。</entry>
+	
+	<entry key="command.auth.change.same">你不能把一个密码改回它自己。</entry>
+	<entry key="command.auth.change.success">你成功更换了密码。</entry>
+	<entry key="command.auth.change.wrongpass">更换密码失败：输入错误。</entry>
+	
+	<entry key="command.auth.setPass">%s的密码已被更改。</entry>
+	
+	<entry key="message.auth.error.notregisterred">%s未注册！</entry>
+	<entry key="message.auth.error.yesregisterred">%s已经注册！</entry>
+	<entry key="message.auth.error.disabledreg">注册系统已被关闭。</entry>
+		
+	<entry key="message.auth.needregister">你要先注册，输入/auth help获取帮助。</entry>
+	<entry key="message.auth.needlogin">你要先登录，输入/auth help获取帮助。</entry>
+	
+	<entry key="message.auth.login">请用“%s”登录。</entry>
+	<entry key="message.auth.register">请用“%s”注册。</entry>
+	<entry key="message.auth.success">成功登录。.</entry>
+	<entry key="message.auth.unregister">成功地移除了%s的注册。</entry>
+	<!-- End localization for ModuleAuth -->
+	
+	<!-- Begin localization for ModuleBackup -->
+	<entry key="command.backup.syntax.console">[dimID|文件夹名称]</entry>
+    <entry key="command.backup.syntax.player">[dimID|文件夹名称]</entry>
+    <entry key="command.backup.info.console">备份所有或指定的文件夹/世界。</entry>
+    <entry key="command.backup.info.player">备份所有或指定的文件夹/世界。</entry>
+	<!-- End localization for ModuleBackup -->
+	
+	<!-- Begin localization for ModuleChat -->
+	<entry key="command.automessage.syntax.console">&lt;select|broadcast|add|del></entry>
+    <entry key="command.automessage.syntax.player">&lt;select|broadcast|add|del></entry>
+    <entry key="command.automessage.info.console">选择一个消息, 广播一个消息, 添加或移除消息</entry>
+    <entry key="command.automessage.info.player">选择一个消息, 广播一个消息, 添加或移除消息</entry>
+	
+	<entry key="command.mail.syntax.console">&lt;玩家> &lt;消息……></entry>
+    <entry key="command.mail.syntax.player">&lt;玩家> &lt;消息……></entry>
+    <entry key="command.mail.info.console">向某人发送消息，可过后阅读。</entry>
+    <entry key="command.mail.info.player">向某人发送消息，可过后阅读。</entry>
+	
+	<entry key="command.mail.posted">已向%s发送消息。</entry>
+	<entry key="command.mail.unknown">未找到玩家%s上线过，请重试。</entry>
+	
+	<entry key="command.msg.syntax.console">&lt;玩家> &lt;消息></entry>
+    <entry key="command.msg.syntax.player">&lt;玩家> &lt;消息></entry>
+    <entry key="command.msg.info.console">向某人发送密信。</entry>
+    <entry key="command.msg.info.player">向某人发送密信。</entry>
+	
+	<entry key="command.mute.syntax.console">&lt;玩家></entry>
+    <entry key="command.mute.syntax.player">&lt;玩家></entry>
+    <entry key="command.mute.info.console">静音选中的玩家。</entry>
+    <entry key="command.mute.info.player">静音选中的玩家。</entry>
+	
+	<entry key="command.mute.youMuted">%s被你静音。</entry>
+	<entry key="command.mute.muted">你被%s静音了</entry>
+	
+	<entry key="command.nickname.syntax.console">&lt;玩家> &lt;nickname|del></entry>
+    <entry key="command.nickname.syntax.player">[玩家] &lt;nickname|del></entry>
+    <entry key="command.nickname.info.console">设置玩家的昵称</entry>
+    <entry key="command.nickname.info.player">设置玩家的昵称</entry>
+	
+	<entry key="command.nickname.self.remove">昵称已删除</entry>
+	<entry key="command.nickname.self.set">昵称已改为%n</entry>
+	<entry key="command.nickname.others.remove">%p的昵称已被移除。</entry>
+	<entry key="command.nickname.others.set">%p的昵称已被改为%n。</entry>
+	
+	<entry key="command.pm.syntax.console">[帮助]</entry>
+    <entry key="command.pm.syntax.player">[帮助]</entry>
+    <entry key="command.pm.info.console">启用私信聊天模式，输入/pm回归普通对话模式。</entry>
+    <entry key="command.pm.info.player">启用私信聊天模式，输入/pm回归普通对话模式。</entry>
+	
+	<entry key="command.pm.disabled">私信模式关闭。</entry>
+	<entry key="command.pm.alreadyDisabled">私信模式已经关闭。</entry>
+	<entry key="command.pm.help">输入/pm &lt;玩家>开启私信模式，输入/pm回归普通对话模式。</entry>
+	<entry key="command.pm.enable">成功与%s建立了私信聊天。</entry>
+	
+    <entry key="command.r.syntax.console">&lt;消息></entry>
+    <entry key="command.r.syntax.player">&lt;消息></entry>
+    <entry key="command.r.info.console">向你最后发送消息的玩家回复。</entry>
+    <entry key="command.r.info.player">向你最后发送消息的玩家回复。</entry>
+	
+	<entry key="command.unmute.syntax.console">&lt;玩家></entry>
+    <entry key="command.unmute.syntax.player">&lt;玩家></entry>
+    <entry key="command.unmute.info.console">关闭之前被静音的某个玩家的静音。</entry>
+    <entry key="command.unmute.info.player">关闭之前被静音的某个玩家的静音。</entry>
+	
+	<entry key="command.unmute.youMuted">%s不再被静音。</entry>
+	<entry key="command.unmute.muted">你因%s不再被静音。</entry>
+	
+	<entry key="message.muted">你被静音。</entry>
+	<entry key="message.mail.header">--- 你的邮箱 ---</entry>
+	<entry key="message.mail.footer">--- 你的邮箱底 ---</entry>
+	<!-- End localization for ModuleChat -->
+	
+	<!-- Begin localization for ModuleCommands -->
+    <entry key="command.afk.syntax.console"></entry>
+    <entry key="command.afk.syntax.player"></entry>
+    <entry key="command.afk.info.console"></entry>
+    <entry key="command.afk.info.player">开启AFK(离开)模式</entry>
+    
+	<entry key="command.afk.warmup">请原地不动%d秒</entry>
+	<entry key="command.afk.in">你在离开状态。</entry>
+	<entry key="command.afk.out">你不在离开状态。</entry>
+
+	<entry key="command.afk.notice.in">%s已离开。</entry>
+	<entry key="command.afk.notice.out">%s回来了。</entry>
+	
+    <entry key="command.back.syntax.console">/back</entry>
+    <entry key="command.back.syntax.player">/back</entry>
+    <entry key="command.back.info.console"></entry>
+    <entry key="command.back.info.player">将你传送回上次死亡或传送前的地点。</entry>
+    
+	<entry key="command.back.noback">你无地可回。</entry>
+	
+    <entry key="command.bed.syntax.console">&lt;玩家></entry>
+    <entry key="command.bed.syntax.player">[玩家]</entry>
+    <entry key="command.bed.info.console">将某人送回床边。</entry>
+    <entry key="command.bed.info.player">将你送回床边或出生点。</entry>
+    
+	<entry key="command.bed.done">你被送回了床边。</entry>
+	<entry key="command.bed.noExist">你没有一个床。</entry>
+	<entry key="command.bed.obstructed">你的床上有障碍物。</entry>
+	
+    <entry key="command.burn.syntax.console">&lt;玩家></entry>
+    <entry key="command.burn.syntax.player">[me|&lt;玩家>]</entry>
+    <entry key="command.burn.info.console">将某人点燃。</entry>
+    <entry key="command.burn.info.player">将自己或某人点燃。</entry>
+
+	<entry key="command.burn.self">你被点燃了！哦呕！</entry>
+    <entry key="command.burn.player">你这样做不后悔么？</entry>
+	
+    <entry key="command.butcher.syntax.console">&lt;范围|-1|世界> &lt;种类> &lt;x, y, z> &lt;世界></entry>
+    <entry key="command.butcher.syntax.player">[范围|-1|世界] [种类] [x, y, z]</entry>
+	<entry key="command.butcher.info.console">杀死指定世界中的全部某种怪物。</entry>
+    <entry key="command.butcher.info.player">杀死指定世界中/你周围一定范围的全部某种怪物。</entry>
+
+	<entry key="command.butcher.done">%d怪兽被屠杀。</entry>
+	
+    <entry key="command.capabilities.syntax.console">[玩家] [能力] [数值|default]</entry>
+    <entry key="command.capabilities.syntax.player">[玩家] [能力] [数值|default]</entry>
+    <entry key="command.capabilities.info.console">允许你修改一堆有意思的数据。</entry>
+    <entry key="command.capabilities.info.player">允许你修改一堆有意思的数据。</entry>
+    
+	<entry key="command.capabilities.list">能力列表：</entry>
+	<entry key="command.capabilities.listForX">%s的能力列表：</entry>
+	<entry key="command.capabilities.capabilityUnknown">未知能力“%s”。</entry>
+	
+    <entry key="command.clear.syntax.console">&lt;玩家> [id] [meta]</entry>
+    <entry key="command.clear.syntax.player">[玩家] [id] [meta]</entry>
+    <entry key="command.clear.info.console">清空一个玩家的背包。</entry>
+    <entry key="command.clear.info.player">清空自己或一个玩家的背包。</entry>
+	
+	<entry key="command.clear.doneSelf">背包清空成功！</entry>
+	<entry key="command.clear.doneBy">你的背包被%s清空了。</entry>
+	<entry key="command.clear.doneOf">成功清空了%s的背包。</entry>
+	
+	<entry key="command.colorize.syntax.console"></entry>
+    <entry key="command.colorize.syntax.player"></entry>
+    <entry key="command.colorize.info.console"></entry>
+    <entry key="command.colorize.info.player">你敲打的下一个牌子将会被上色。</entry>
+	
+	<entry key="command.colorize.msg">请敲打一个牌子上色！</entry>
+	
+	<entry key="command.craft.syntax.console"></entry>
+    <entry key="command.craft.syntax.player"></entry>
+    <entry key="command.craft.info.console"></entry>
+    <entry key="command.craft.info.player">打开一个工作台</entry>
+	
+	<entry key="command.doas.syntax.console">&lt;玩家> [指令]</entry>
+    <entry key="command.doas.syntax.player">&lt;玩家> [指令]</entry>
+    <entry key="command.doas.info.console">强制一个玩家执行指令。</entry>
+    <entry key="command.doas.info.player">强制一个玩家执行指令。</entry>
+	
+	<entry key="command.doas.attempt">%s为你强制执行指令。</entry>
+	<entry key="command.doas.success">成功强制执行了%s的指令。</entry>
+	
+	<entry key="command.enchant.syntax.console"></entry>
+    <entry key="command.enchant.syntax.player">[附魔名称] [等级]</entry>
+    <entry key="command.enchant.info.console"></entry>
+    <entry key="command.enchant.info.player">为你当前的物品附魔。</entry>
+	
+	<entry key="command.enchant.notFound">“%s”不是一个可用的附魔</entry>
+	
+    <entry key="command.enderchest.syntax.console"></entry>
+    <entry key="command.enderchest.syntax.player"></entry>
+    <entry key="command.enderchest.info.console"></entry>
+    <entry key="command.enderchest.info.player">打开你的末影箱</entry>
+    
+	<entry key="command.gamemode.syntax.console">&lt;玩家> [游戏模式]</entry>
+    <entry key="command.gamemode.syntax.player">[玩家|游戏模式] [游戏模式|玩家]</entry>
+    <entry key="command.gamemode.info.console">改变指定玩家的游戏模式</entry>
+    <entry key="command.gamemode.info.player">改变一个玩家的游戏模式</entry>
+	
+	<entry key="command.gamemode.changed">游戏模式由%1$s变为了%2$s</entry>
+	<entry key="command.gamemode.invalidParm">不可用的玩家或游戏模式：%s</entry>
+	
+	<entry key="command.getcommandbook.syntax.console"></entry>
+    <entry key="command.getcommandbook.syntax.player"></entry>
+    <entry key="command.getcommandbook.info.console"></entry>
+    <entry key="command.getcommandbook.info.player">出版一本指令书。</entry>
+	
+	<entry key="command.give.syntax.console">&lt;玩家> &lt;ID[:meta]> [数量]</entry>
+    <entry key="command.give.syntax.player">&lt;玩家> &lt;ID[:meta]> [数量]</entry>
+    <entry key="command.give.info.console">为一个玩家发放物品。</entry>
+    <entry key="command.give.info.player">为一个玩家发放物品，输入/i给自己物品。</entry>
+	
+	<entry key="command.give.given">正在为%1$s发放%2$d个%3$s</entry>
+	
+    <entry key="command.heal.info.player">将一个玩家恢复满HP和饥饿值，也会将他们身上的火焰扑灭。</entry>
+    <entry key="command.heal.info.console">将一个玩家恢复满HP和饥饿值，也会将他们身上的火焰扑灭。</entry>
+    <entry key="command.heal.syntax.player">[玩家]</entry>
+    <entry key="command.heal.syntax.console">&lt;玩家></entry>
+    
+	<entry key="command.heal.healed">你被治愈了。</entry>
+	
+	<entry key="command.home.syntax.console"></entry>
+    <entry key="command.home.syntax.player">[here|x, y, z]</entry>
+	<entry key="command.home.info.console"></entry>
+    <entry key="command.home.info.player">设定你的家或将你传送会家</entry>
+	
+    <entry key="command.home.confirm">家设定为：%1$d, %2$d, %3$d</entry>
+	<entry key="command.home.nohome">未设定家，试试这个： </entry>
+
+	<entry key="command.i.syntax.console"></entry>
+    <entry key="command.i.syntax.player">&lt;ID[:meta]> [数量]</entry>
+    <entry key="command.i.info.console">用/give.</entry>
+    <entry key="command.i.info.player">为自己发放物品。</entry>
+	
+	<entry key="command.i.given">发放%d个%s</entry>
+	
+	<entry key="command.jump.syntax.console"></entry>
+    <entry key="command.jump.syntax.player"></entry>
+    <entry key="command.jump.info.console"></entry>
+    <entry key="command.jump.info.player">将你传送到前方所看的位置</entry>
+    <entry key="command.jump.toofar">老兄，太远了！</entry>
+	
+    <entry key="command.kill.syntax.console">&lt;玩家></entry>
+    <entry key="command.kill.syntax.player">[玩家]</entry>
+    <entry key="command.kill.info.console">杀死一个指定玩家。</entry>
+    <entry key="command.kill.info.player">杀死自己或指定玩家。</entry>
+	
+	<entry key="command.kill.msg">你遇害了，大概是你活该。</entry>
+
+	<entry key="command.kit.syntax.console"></entry>
+	<entry key="command.kit.syntax.player">[名字]或[名字] [set|del] &lt;冷却></entry>
+	<entry key="command.kit.info.console"></entry>
+    <entry key="command.kit.info.player">使你可以免费领取礼品组。</entry>
+    
+    <entry key="command.kit.alreadyExists">此礼品组已经存在。</entry>
+    <entry key="command.kit.done">礼品已发放。</entry>
+    <entry key="command.kit.list">可用礼品组的列表：</entry>
+    <entry key="command.kit.made">礼品组成功设立，%c冷却。</entry>
+    <entry key="command.kit.noExists">可用礼品组的列表：</entry>
+    <entry key="command.kit.removed">礼品组移除。</entry>
+    <entry key="command.kit.stillInCooldown">该礼品组正在冷却中，还有%c秒!</entry>
+    
+	<entry key="command.locate.syntax.console">&lt;玩家></entry>
+    <entry key="command.locate.syntax.player">&lt;玩家></entry>
+    <entry key="command.locate.info.console">用于了解某个玩家的具体方位。</entry>
+    <entry key="command.locate.info.player">用于了解某个玩家的具体方位。</entry>
+    
+	<entry key="command.locate.msg">%6$s的%1$s正在世界%5$d的%2$d, %3$d, %4$d。</entry>
+	
+    <entry key="command.modlist.syntax.console">[页码]</entry>
+    <entry key="command.modlist.syntax.player">[页码]</entry>
+    <entry key="command.modlist.info.console">显示该服务器上装的Mod</entry>
+    <entry key="command.modlist.info.player">显示该服务器上装的Mod</entry>
+	
+	<entry key="command.modlist.header">--- 显示Mod列表第%1$d页共%2$d页 ---</entry>
+	
+    <entry key="command.motd.syntax.console">[reload]</entry>
+    <entry key="command.motd.syntax.player">[reload]</entry>
+    <entry key="command.motd.info.console">显示或重置今日消息。</entry>
+    <entry key="command.motd.info.player">显示或重置今日消息。</entry>
+    
+	<entry key="command.personalwarp.syntax.console"></entry>
+	<entry key="command.personalwarp.syntax.player">goto [名称] 或者 &lt;add|remove> &lt;名称> </entry>
+	<entry key="command.personalwarp.info.console"></entry>
+    <entry key="command.personalwarp.info.player">将你传送到一个私人传送点</entry>
+	
+	<entry key="command.personalwarp.notfound">那个传送点不存在！</entry>
+    <entry key="command.personalwarp.list">你的私人传送点：</entry>
+	<entry key="command.personalwarp.made">成功添加了私人传送点。</entry>
+	<entry key="command.personalwarp.remove">成功移除了私人传送点。</entry>
+    <entry key="command.personalwarp.alreadyexists">那个私人传送点已经存在。</entry>
+	<entry key="command.personalwarp.limitmsg">你已经到达了传送点上限。</entry>
+	
+	<entry key="command.personalwarp.limit.syntax">选中一个组或玩家(-1无限)</entry>
+	<entry key="command.personalwarp.limit.current">目前上限是%s.</entry>
+	<entry key="command.personalwarp.limit.new">你将上限改为%s.</entry>
+
+	<entry key="command.ping.syntax.console"></entry>
+    <entry key="command.ping.syntax.player"></entry>
+    <entry key="command.ping.info.console">检查你时候掉线。</entry>
+    <entry key="command.ping.info.player">检查你时候掉线。</entry>
+	
+    <entry key="command.potion.syntax.console">&lt;玩家> &lt;效果> &lt;时间> [等级]</entry>
+    <entry key="command.potion.syntax.player">&lt;玩家> &lt;效果> &lt;时间> [等级]</entry>
+    <entry key="command.potion.info.console">给一个玩家一个药水效果。</entry>
+    <entry key="command.potion.info.player">给一个玩家一个药水效果。</entry>
+	<entry key="command.potion.effectnotfound">未找到效果。</entry>
+	
+	<entry key="command.remove.syntax.console">&lt;范围> %lt;x, y, z> [世界]</entry>
+    <entry key="command.remove.info.console">移除地上所有物品。</entry>
+    <entry key="command.remove.syntax.player">[范围] [x, y, z]</entry>
+    <entry key="command.remove.info.player">移除指定点/自己周围所有掉落物品。</entry>
+	
+	<entry key="command.remove.done">%d个物品移除。</entry>
+	
+    <entry key="command.repair.info.player">修复指定玩家手持物品。</entry>
+    <entry key="command.repair.info.console">修复指定玩家手持物品。</entry>
+    <entry key="command.repair.syntax.player">&lt;玩家></entry>
+    <entry key="command.repair.syntax.console">&lt;玩家></entry>
+
+    <entry key="command.rules.syntax.console">帮助 [#]</entry>
+    <entry key="command.rules.syntax.player">帮助 [#]</entry>
+    <entry key="command.rules.info.console">获取/设定服务器规则。</entry>
+    <entry key="command.rules.info.player">获取/设定服务器规则。</entry>
+	<entry key="command.rules.help.1"> - /rules [#]</entry>
+	<entry key="command.rules.help.2"> - /rules &lt;#> [改变的规则]</entry>
+	<entry key="command.rules.help.3"> - /rules add &lt;新规则></entry>
+	<entry key="command.rules.help.4"> - /rules remove &lt;#></entry>
+	<entry key="command.rules.help.5"> - /rules move &lt;#> &lt;#></entry>
+    <entry key="command.rules.remove">规则# %s移除。</entry>
+	<entry key="command.rules.added">规则设立为# %s。</entry>
+	<entry key="command.rules.moved">规则# %1$s改到了# %2$s。</entry>
+	<entry key="command.rules.movedToLast">规则# %1$s已回原位。</entry>
+	<entry key="command.rules.changed">规则# %1$s改为“%2$s”.</entry>
+	
+	<entry key="command.invsee.syntax.console"></entry>
+    <entry key="command.invsee.syntax.player">&lt;玩家></entry>
+    <entry key="command.invsee.info.console"></entry>
+	<entry key="command.invsee.info.player">显示一个玩家的背包。</entry>
+    
+	<entry key="command.serverdo.syntax.console"></entry>
+    <entry key="command.serverdo.syntax.player">&lt;指令></entry>
+    <entry key="command.serverdo.info.console"></entry>
+	<entry key="command.serverdo.info.player">强制服务器端执行指令。</entry>
+	
+	<entry key="command.serversettings.syntax.console">[设置] [数值]</entry>
+    <entry key="command.serversettings.syntax.player">[设置] [数值]</entry>
+    <entry key="command.serversettings.info.console">改变/查看服务器设置文件(server.properties).</entry>
+	<entry key="command.serversettings.info.player">改变/查看服务器设置文件(server.properties).</entry>
+	
+	<entry key="command.serversettings.list">可用设置：</entry>
+	
+    <entry key="command.setspawn.syntax.console">帮助</entry>
+    <entry key="command.setspawn.syntax.player">帮助</entry>
+    <entry key="command.setspawn.info.console">设置出生点和出生类型。</entry>
+    <entry key="command.setspawn.info.player">设置出生点和出生类型。</entry>
+    <entry key="command.setspawn.setPoint">出生点设为%1$d, %2$d, %3$d</entry>
+	<entry key="command.setspawn.setType">出生类型%1$s</entry>
+	<entry key="command.setspawn.help.1"> - /setspawn type &lt;player|group|zone> &lt;name> &lt;none|bed|point> [zone]</entry>
+	<entry key="command.setspawn.help.2"> - - 设置玩家或玩家组的出生点</entry>
+	<entry key="command.setspawn.help.3"> - /setspawn point &lt;player|group|zone> &lt;name> &lt;here|revert|&lt;x> &lt;y> &lt;z>> [zone]</entry>
+	<entry key="command.setspawn.help.4"> - - 设置玩家或玩家组的出生点</entry>
+	<entry key="command.setspawn.help.5"> - 最后一行的[zone]可不用</entry>
+    
+    <entry key="command.smite.syntax.console">&lt;玩家></entry>
+    <entry key="command.smite.syntax.player">[me|&lt;玩家>]</entry>
+    <entry key="command.smite.info.console">用闪电雷击一个指定玩家。</entry>
+    <entry key="command.smite.info.player">用闪电雷击一个指定玩家，或所查看的地点。</entry>
+
+	<entry key="command.smite.self">那是一个好主意么？</entry>
+    <entry key="command.smite.player">你不后悔么？</entry>
+    <entry key="command.smite.ground">但愿没起火。</entry>
+    
+    <entry key="command.spawn.syntax.console">[玩家]</entry>
+    <entry key="command.spawn.info.console">将一个玩家或自己传送到他的或你的出生点。</entry>
+    <entry key="command.spawn.syntax.player">&lt;玩家> [世界]</entry>
+    <entry key="command.spawn.info.player">将一个玩家传送到他的出生点。</entry>
+	
+    <entry key="command.spawn.done">传送到了出生点。</entry>
+	
+    <entry key="command.spawnmob.syntax.console">&lt;mob &lt;type> amount &lt;x> &lt;y> &lt;z> &lt;dimention></entry>
+    <entry key="command.spawnmob.info.player">在指定地点刷怪。</entry>
+    <entry key="command.spawnmob.syntax.player">&lt;mob type> &lt;amount> [&lt;x> &lt;y> &lt;z>] [dimension]</entry>
+    <entry key="command.spawnmob.info.comsole">在指定地点刷一定量的怪。</entry>
+	<entry key="command.spawnmob.noMobX">在指定地点刷一定量的指定怪。</entry>
+	
+	<entry key="command.spawnmob.noMobX">%s不是一个怪的名称。</entry>
+	
+	<entry key="command.top.info.player">传送你到世界最高点。</entry>
+    <entry key="command.top.info.console">传送一个玩家到世界最高点。</entry>
+    <entry key="command.top.syntax.player">[玩家]</entry>
+    <entry key="command.top.syntax.console">&lt;玩家></entry>
+	
+	<entry key="command.tp.info.player">将你或一个玩家传送到另一个玩家或指定地点。</entry>
+    <entry key="command.tp.info.console">将一个玩家传送到另一个玩家或指定地点。</entry>
+    <entry key="command.tp.syntax.player">[玩家] &lt;玩家|&lt;x> &lt;y> &lt;z>></entry>
+    <entry key="command.tp.syntax.console">&lt;玩家> &lt;玩家|&lt;x> &lt;y> &lt;z>></entry>
+		
+	<entry key="command.tppos.info.player">将你传送到指定地点。</entry>
+    <entry key="command.tppos.info.console"></entry>
+    <entry key="command.tppos.syntax.player">&lt;x> &lt;y> &lt;z></entry>
+    <entry key="command.tppos.syntax.console"></entry>
+    
+	<entry key="command.tpa.info.player">将你或一个玩家传送到另一个玩家或指定地点。</entry>
+    <entry key="command.tpa.info.console">将一个玩家传送到另一个玩家或指定地点。</entry>
+    <entry key="command.tpa.syntax.player">[玩家] &lt;玩家|&lt;x> &lt;y> &lt;z|accept|decline>></entry>
+    <entry key="command.tpa.syntax.console">&lt;玩家> &lt;玩家|&lt;x> &lt;y> &lt;z>></entry>
+	
+	<entry key="command.tpa.accepted">传送已被接受。</entry>
+	<entry key="command.tpa.declined">传送已被拒绝。</entry>
+	<entry key="command.tpa.sendRequest">已将传送请求发给%s。</entry>
+	<entry key="command.tpa.gotRequest">你收到了来自%s的传送请求。输入“/tpa accept”接受，“/tpa decline”拒绝。</entry>
+	
+	<entry key="command.tpa.gotTimeout">%s发来的传送请求超时。</entry>
+	<entry key="command.tpa.sendTimeout">发给%s的传送请求超时。</entry>
+	
+	<entry key="command.tpahere.accepted">传送前往已被接受。</entry>
+	<entry key="command.tpahere.declined">传送前往已被拒绝。</entry>
+	<entry key="command.tpahere.sendRequest">已将传送前往请求发给%s。</entry>
+	<entry key="command.tpahere.gotRequest">你收到了来自%s的传送前往请求。输入“/tpa accept”接受，“/tpa decline”拒绝。</entry>
+	
+	<entry key="command.tpahere.gotTimeout">%s发来的传送前往请求超时。</entry>
+	<entry key="command.tpahere.sendTimeout">发给%s的传送前往请求超时。</entry>
+	
+	<entry key="command.tphere.info.player">将一个玩家传送到你身边。</entry>
+    <entry key="command.tphere.syntax.player">&lt;玩家></entry>
+	
+    <entry key="command.tps.info.player">获取服务器预计延迟。</entry>
+    <entry key="command.tps.info.console">获取服务器预计延迟。</entry>
+    <entry key="command.tps.syntax.player">[all|世界 id]</entry>
+    <entry key="command.tps.syntax.console">[all|世界 id]</entry>
+    
+    <entry key="command.virtualchest.syntax.console"></entry>
+    <entry key="command.virtualchest.syntax.player"></entry>
+    <entry key="command.virtualchest.info.console"></entry>
+    <entry key="command.virtualchest.info.player">打开你的虚拟箱子。</entry>
+
+	<entry key="command.warp.notfound">那个传送不存在！</entry>
+    <entry key="command.warp.list">服务器上所有传送：</entry>
+    <entry key="command.warp.alreadyexists">那个传送已经存在！输入“/warp del &lt;名字>”删除。</entry>
+    <entry key="command.warp.syntax.player">[名字]或者&lt;set|del> &lt;名字> </entry>
+    <entry key="command.warp.info.player">将你传送到一个传送点。</entry>
+	
+	<entry key="command.time.syntax.console">[世界ID，不输入代表全部] &lt;freeze|add|lock [day|night]|set [day|night]></entry>
+    <entry key="command.time.syntax.player">[世界ID，不输入代表全部] &lt;freeze|add|lock [day|night]|set [day|night]></entry>
+    <entry key="command.time.info.console">允许控制服务器时间。</entry>
+    <entry key="command.time.info.player">允许控制服务器时间。</entry>
+	<entry key="command.time.freeze.on">冻结时间。</entry>
+	<entry key="command.time.freeze.off">解冻时间。</entry>
+	<entry key="command.time.lock">将时间锁定为%s。</entry>
+	<entry key="command.time.set">将时间设为%s。</entry>
+	<entry key="command.time.add">在现有时间基础上加了%d单位时间。</entry>
+	
+	<entry key="command.weather.syntax.console">[世界ID，不输入代表全部] &lt;rain|storm> [on|off]</entry>
+    <entry key="command.weather.syntax.player">[世界ID，不输入代表全部] &lt;rain|storm> [on|off]</entry>
+    <entry key="command.weather.info.console">允许永久控制服务器天气。</entry>
+    <entry key="command.weather.info.player">允许永久控制服务器天气。</entry>
+	<entry key="command.weather.rain.on">开启雨(永久)</entry>
+	<entry key="command.weather.rain.off">关闭雨(永久)</entry>
+	<entry key="command.weather.storm.on">开启暴雨(永久)</entry>
+	<entry key="command.weather.storm.off">关闭暴雨(永久)</entry>
+	
+	<entry key="command.bind.syntax.console"></entry>
+    <entry key="command.bind.syntax.player">&lt;left|right|clear> &lt;指令></entry>
+    <entry key="command.bind.info.console">将一个指令与一组物品绑定。</entry>
+    <entry key="command.bind.info.player">将一个指令与一组物品绑定。</entry>
+	
+	<entry key="command.rename.syntax.console"></entry>
+    <entry key="command.rename.syntax.player">&lt;name...></entry>
+    <entry key="command.rename.info.console">重命名一组物品</entry>
+    <entry key="command.rename.info.player">重命名一组物品</entry>
+	<!-- End localization for ModuleCommands -->
+	
+	<!-- Begin localization for Core -->
+	<entry key="command.fedesel.syntax.console"></entry>
+    <entry key="command.fedesel.syntax.player"></entry>
+    <entry key="command.fedesel.info.console"></entry>
+    <entry key="command.fedesel.info.player">清空选中的区域。</entry>
+	
+	<entry key="command.fedesel.syntax.console"></entry>
+    <entry key="command.fedesel.syntax.player"></entry>
+    <entry key="command.fedesel.info.console"></entry>
+    <entry key="command.fedesel.info.player">清空选中的区域。</entry>
+	
+	<entry key="message.credits.AbrarSyed">Lead dev and permissions system</entry>
+    <entry key="message.credits.Bob_A_Red_Dino">Essentials-like commands</entry>
+    <entry key="message.credits.bspkrs">Helped with the coremod, no longer active</entry>
+    <entry key="message.credits.Dries007">Logger, random command stuff. Every spelling mistake ever</entry>
+    <entry key="message.credits.luacs1998">The IRC channel's Hitler</entry>
+    <entry key="message.credits.Malkierian">Latecoming bugsquasher.  The ADD coder (he's all over the place in here)</entry>
+    <entry key="message.credits.MysteriousAges">Backend, WorldControl commands, neurotic formatting</entry>
+	<!-- End localization for Core -->
+	
+	<!-- Begin localization for ModuleSnooper -->
+	<entry key="command.queryreload.syntax.player"></entry>
+    <entry key="command.queryreload.info.player">启动监视模块</entry>
+    <entry key="command.queryreload.syntax.console"></entry>
+    <entry key="command.queryreload.info.console">重启监视模块</entry>
+	<!-- End localization for ModuleSnooper -->
+	
+	<!-- Begin localization for ModuleTicket -->
+	<entry key="command.ticket.syntax.player"></entry>
+    <entry key="command.ticket.info.player">用来寻求OP帮助的指令</entry>
+    <entry key="command.ticket.syntax.console"></entry>
+    <entry key="command.ticket.info.console">用来寻求OP帮助的指令</entry>
+	
+	<entry key="command.ticket.view.usage">用法：/ticket view &lt;id></entry>
+	<entry key="command.ticket.new.usage">用法：/ticket new &lt;类别> &lt;消息……></entry>
+	<entry key="command.ticket.tp.usage">用法：/ticket tp &lt;id></entry>
+	<entry key="command.ticket.del.usage">用法：/ticket del &lt;id></entry>
+	
+	
+	<entry key="message.error.illegalCategory">“%s”不是一个可用的类别。</entry>
+	<entry key="message.confim.ticketPost">你的求助已经发送，ID：%d</entry>
+	<entry key="message.confim.ticketDel">求助#%d已被移除。</entry>
+	<entry key="message.other.ticketList.header">--- 票据列表 ---</entry>
+	<entry key="message.other.ticketList.pages">--- 第%1$d页，共%2$d页 ---"</entry>
+	<!-- End localization for ModuleTicket -->
+	
+	<!-- Begin localization for ModuleEconomy -->
+    <entry key="message.wallet.walletaddself">加入了你的钱包。</entry>
+    <entry key="message.wallet.walletaddtarget">加入了他的钱包。</entry>
+    <entry key="message.wallet.walletgetself">你的钱包中有：</entry>
+    <entry key="message.wallet.walletgettarget">的钱包中有：</entry>
+    <entry key="message.wallet.walletremove">移除钱包金额</entry>
+    <entry key="message.wallet.walletremoveself">从你的钱包中移除。</entry>
+    <entry key="message.wallet.walletremovetarget">从他的钱包中移除。</entry>
+    <entry key="message.wallet.walletsetself">你的钱包金额被设为：</entry>
+    <entry key="message.wallet.walletsettarget">钱包金额被设为：</entry>
+    
+    <entry key="command.setwallet.syntax.player">[&lt;玩家> &lt;钱包金额>]</entry>
+    <entry key="command.setwallet.info.player">设定玩家的钱包金额。</entry>
+    <entry key="command.setwallet.syntax.console">[&lt;玩家> &lt;钱包金额>]</entry>
+    <entry key="command.setwallet.info.console">设定玩家的钱包金额。</entry>
+    
+    <entry key="command.addtowallet.syntax.player">[&lt;玩家> &lt;添加金额>]</entry>
+    <entry key="command.addtowallet.info.player">添加玩家的钱包金额。</entry>
+    <entry key="command.addtowallet.syntax.console">[&lt;玩家> &lt;添加金额>]</entry>
+    <entry key="command.addtowallet.info.console">添加玩家的钱包金额。</entry>
+    
+    <entry key="command.removewallet.syntax.player">[&lt;玩家> &lt;移除金额>]</entry>
+    <entry key="command.removewallet.info.player">移除玩家的钱包金额。</entry>
+    <entry key="command.removewallet.syntax.console">[&lt;玩家> &lt;移除金额>]</entry>
+    <entry key="command.removewallet.info.console">移除玩家的钱包金额。</entry>
+    
+    <entry key="command.getwallet.syntax.player">[&lt;玩家>]</entry>
+    <entry key="command.getwallet.info.player">显示玩家钱包金额。</entry>
+    <entry key="command.getwallet.syntax.console">[&lt;玩家>]</entry>
+    <entry key="command.getwallet.info.console">显示玩家钱包金额。</entry>
+    
+    <entry key="command.pay.syntax.player">&lt;玩家> &lt;金额></entry>
+    <entry key="command.pay.info.player">向某一位玩家付款。</entry>
+    <entry key="command.pay.syntax.console">&lt;玩家> &lt;金额></entry>
+    <entry key="command.pay.info.console">向某一位玩家付款。</entry>
+    
+    <entry key="command.requestpayment.syntax.player">&lt;玩家> &lt;金额></entry>
+    <entry key="command.requestpayment.info.player">要求某一位玩家付款。</entry>
+    <entry key="command.requestpayment.syntax.console">&lt;玩家> &lt;金额></entry>
+    <entry key="command.requestpayment.info.console">要求某一位玩家付款。</entry>
+	<!-- End localization for ModuleEconomy -->
+	
+    <entry key="message.done">完成！</entry>
+    <entry key="message.healed">治疗成功！</entry>
+	
+    <!-- Some localization for Errors -->
+    <entry key="message.error.badsyntax">语法错误，请试试这个：</entry>
+    <entry key="message.error.nan">“%s”不是一个数字，请重试。</entry>
+    <entry key="message.error.noItemPlayer">你不在拿一个有效物品。</entry>
+    <entry key="message.error.noItemTarget">玩家不在拿一个有效物品。</entry>
+    <entry key="message.error.noPlayerX">玩家%s不存在，或者不在线。</entry>
+    <entry key="message.error.nodeathpoint">你还没死过。</entry>
+    <entry key="message.error.nopage">你输入的页码不存在！</entry>
+    <entry key="message.error.noselection">选项不可用，请重试。</entry>
+    <entry key="message.error.permdenied">你没有权限这么做，若你认为这是一个错误，请联系一位管理员。</entry>
+    <entry key="message.error.r.noPrevious">你没有消息记录。</entry>
+    <entry key="message.error.target">你必须看着地面！</entry>
+    
+    <!-- Some localization for TeleportCenter -->
+    <entry key="message.tc.aborted">传送终止。</entry>
+    <entry key="message.tc.cooldown">冷却等待中，还剩%c秒。</entry>
+    <entry key="message.tc.done">*哒哒*</entry>
+    <entry key="message.tc.warmup">请原地保持不动%w秒。</entry>
+    
+    <entry key="command.zone.info.player">设定，移除或编辑保护区</entry>
+    <entry key="command.zone.syntax.player">&lt;define|redefine|remove|setparent &lt;上属保护区>> &lt;保护区ID></entry>
+    
+    <!-- Some localization for WorldBorder -->
+    <entry key="command.worldborder.syntax.console">&lt;global|world|dimID> [info|enable|disable|center|radius|shape]</entry>
+    <entry key="command.worldborder.syntax.player">&lt;global|world|dimID> [info|enable|disable|center|radius|shape]</entry>
+    <entry key="command.worldborder.info.console">世界边界设定。</entry>
+    <entry key="command.worldborder.info.player">世界边界设定。</entry>
+    
+    <!-- Some localization for WorldControl -->
+    <entry key="command./replace.info.player">将第一个ID的所有方块替换为第二个ID</entry>
+    <entry key="command./replace.syntax.player">&lt;ID[:metadata]> &lt;ID[:metadata]></entry>
+    <entry key="command./set.info.player">将所有方块设为所给的ID/metadata.</entry>
+    <entry key="command./set.syntax.player">&lt;ID[:metadata]></entry>
+    <entry key="command.freeze.info.player">冰冻所有露天的水。</entry>
+    <entry key="command.freeze.syntax.player">&lt;范围> [&lt;x> &lt;z>]</entry>
+    <entry key="command.snow.info.player">将露天方块上铺满雪。</entry>
+    <entry key="command.snow.syntax.player">&lt;范围> [&lt;x> &lt;z>]</entry>
+    <entry key="command.thaw.info.player">移除地面上的雪，从指定地点或玩家周围开始。</entry>
+    <entry key="command.thaw.syntax.player">&lt;范围> [&lt;x> &lt;z>]</entry>
+    <entry key="command.till.info.player">开耕所有泥土用于种植。</entry>
+    <entry key="command.till.syntax.player">&lt;范围> [&lt;x> &lt;y>]</entry>
+    <entry key="command.untill.info.player">将露天的耕地转化为泥土。</entry>
+    <entry key="command.untill.syntax.player">&lt;范围t> [&lt;x> &lt;y>]</entry>
+    
+    <entry key="message.wc.blockIdOutOfRange">方块ID超过了%d的范围！</entry>
+    <entry key="message.wc.deselection">区域清空。</entry>
+    <entry key="message.wc.freezeConfirm">%d个方块冻结。</entry>
+    <entry key="message.wc.invalidBlockId">%d不是一个可用的方块ID！</entry>
+    <entry key="message.wc.noRedo">无法恢复！</entry>
+    <entry key="message.wc.noUndo">无法重置！</entry>
+    <entry key="message.wc.replaceConfirmBlocksChanged">将%1$d个%2$s替换为%3$s。</entry>
+    <entry key="message.wc.setConfirmBlocksChanged">将%1$d替换为%2$s。</entry>
+    <entry key="message.wc.snowConfirm">%d个方块上面布置了雪。</entry>
+    <entry key="message.wc.thawConfirm">%d个方块被解冻。</entry>
+    <entry key="message.wc.tillConfirm">%d个方块被开耕。</entry>
+    <entry key="message.wc.untillConfirm">%d个方块被踩踏。</entry>
+    
+    <entry key="tile.air.name">空气</entry>
+    
+    <entry key="unit.seconds">秒</entry>
+    
+    <!-- Some localization for Permissions -->
+    <entry key="command.permissions.set.syntax">&lt;权限> &lt;allow|deny> &lt;p:玩家|g:组> [zone]</entry>
+    <entry key="command.permissions.set.info">为一定区域内的玩家/玩家组设置权限，默认GLOBAL(全局)。</entry>
+    <entry key="message.error.illegalState">“%s”既不是allow也不是deny。</entry>
+    <entry key="message.error.illegalEntity">“%s”必须是“p:玩家”或“g:玩家组”</entry>
+    <entry key="message.error.nogroup">名字叫%s的组不存在！</entry>
+    <entry key="message.error.yesgroup">名字叫%s的组已经存在！</entry>
+	<entry key="message.error.nopermission">你没有权限这么做。</entry>
+	<entry key="message.error.permission.sql">一个错误发生了，请将你的行为报告给管理员。</entry>
+	<entry key="command.permissions.user.info.groups">--- 组%s在……</entry>
+	<entry key="command.permissions.user.info.supers">--- SUPER权限给了%s……</entry>
+	
+	<entry key="command.autopromote.syntax.player">&lt;区域> [get|enable|disable|edit|add|message] [其他设置]</entry>
+    <entry key="command.autopromote.info.player">自动推广控制</entry>
+    
+    <!-- Some localization for Zones -->
+    <entry key="command.permissions.zone.list.header">---正在显示区域列表：第%1$d页，共%2$d页---</entry>
+    <entry key="message.error.nozone">区域%s不存在！</entry>
+    <entry key="message.error.yeszone">一个叫%s的区域已经存在！</entry>
+    <entry key="message.confirm.zone.remove">%s被成功移除！</entry>
+    <entry key="message.confirm.zone.define">%s被成功定义！</entry>
+    <entry key="message.confirm.zone.redefine">%s被成功重新定义！</entry>
+    <entry key="message.confirm.zone.setparent">%s的上级被设置为%s。</entry>
+    
+</properties>
